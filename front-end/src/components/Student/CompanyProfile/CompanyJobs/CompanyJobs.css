@@ -1,0 +1,225 @@
+.HeaderContainerStyles__h1Container {
+  max-width: 75%;
+}
+.HeaderContainerStyles__h1Container .HeaderContainerStyles__h2 {
+  margin-top: 0;
+}
+.InputStyles__input {
+  /* background: url(
+      data:image/svg + xml;charset=utf-8,
+      %3Csvgxmlns='http://www.w3.org/2000/svg'xmlns:xlink='http://www.w3.org/1999/xlink'width='24'height='24'%3E%3Cdefs%3E%3Cpathid='a'd='M16.854 16.147l5.002 5.002a.5.5 0 01-.707.707l-5.002-5.002a8.5 8.5 0 11.707-.707zM10.5 18a7.5 7.5 0 100-15 7.5 7.5 0 000 15z'/%3E%3C/defs%3E%3Cgfill='none'fill-rule='evenodd'%3E%3Cmaskid='b'fill='%23fff'%3E%3Cusexlink:href='%23a'/%3E%3C/mask%3E%3Cusefill='%23fff'xlink:href='%23a'/%3E%3Cgfill='%23858c94'mask='url(%23b)'%3E%3Cpathd='M0 0h24v24H0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E
+    ) */
+  /* no-repeat 8px 8px; */
+  border: 1px solid #c2c2c2;
+  border-radius: 3px;
+  color: #404040;
+  font-size: 15px;
+  line-height: 1.466666666;
+  padding: 8px 40px;
+  width: 100%;
+}
+
+.EIFilterModuleStyles__eiJobsTitleSearch {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.InputStyles__input.InputStyles__hasContent {
+  /* background-image: url(
+    data:image/svg + xml;charset=utf-8,
+    %3Csvgxmlns='http://www.w3.org/2000/svg'xmlns:xlink='http://www.w3.org/1999/xlink'width='24'height='24'%3E%3Cdefs%3E%3Cpathid='a'd='M16.854 16.147l5.002 5.002a.5.5 0 01-.707.707l-5.002-5.002a8.5 8.5 0 11.707-.707zM10.5 18a7.5 7.5 0 100-15 7.5 7.5 0 000 15z'/%3E%3C/defs%3E%3Cgfill='none'fill-rule='evenodd'%3E%3Cmaskid='b'fill='%23fff'%3E%3Cusexlink:href='%23a'/%3E%3C/mask%3E%3Cusefill='%23fff'xlink:href='%23a'/%3E%3Cgfill='%230caa41'mask='url(%23b)'%3E%3Cpathd='M0 0h24v24H0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E
+  ); */
+}
+.InputStyles__input {
+  /* background: url(
+      data:image/svg + xml;charset=utf-8,
+      %3Csvgxmlns='http://www.w3.org/2000/svg'xmlns:xlink='http://www.w3.org/1999/xlink'width='24'height='24'%3E%3Cdefs%3E%3Cpathid='a'd='M16.854 16.147l5.002 5.002a.5.5 0 01-.707.707l-5.002-5.002a8.5 8.5 0 11.707-.707zM10.5 18a7.5 7.5 0 100-15 7.5 7.5 0 000 15z'/%3E%3C/defs%3E%3Cgfill='none'fill-rule='evenodd'%3E%3Cmaskid='b'fill='%23fff'%3E%3Cusexlink:href='%23a'/%3E%3C/mask%3E%3Cusefill='%23fff'xlink:href='%23a'/%3E%3Cgfill='%23858c94'mask='url(%23b)'%3E%3Cpathd='M0 0h24v24H0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E
+    )
+    no-repeat 8px 8px; */
+  border: 1px solid #c2c2c2;
+  border-radius: 3px;
+  color: #404040;
+  font-size: 15px;
+  line-height: 1.466666666;
+  padding: 8px 40px;
+  width: 100%;
+}
+.EIFilterModuleStyles__locationSearchInput {
+  /* background-image: url(
+    data:image/svg + xml;charset=utf-8,
+    %3Csvgxmlns='http://www.w3.org/2000/svg'xmlns:xlink='http://www.w3.org/1999/xlink'width='24'height='24'%3E%3Cdefs%3E%3Cpathid='a'd='M19 10a7 7 0 00-14 0c0 3.484 2.298 7.071 7 10.741 4.702-3.67 7-7.257 7-10.741zm-7 12c-5.333-4-8-8-8-12a8 8 0 1116 0c0 4-2.667 8-8 12zm0-10a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z'/%3E%3C/defs%3E%3Cgfill='none'fill-rule='evenodd'%3E%3Cmaskid='b'fill='%23fff'%3E%3Cusexlink:href='%23a'/%3E%3C/mask%3E%3Cusefill='%23858c94'fill-rule='nonzero'xlink:href='%23a'/%3E%3Cgfill='%23858c94'mask='url(%23b)'%3E%3Cpathd='M0 0h24v24H0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E
+  );  */
+  border-left-width: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.flex-lg-row {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+  -webkit-flex-direction: row !important;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+}
+.gdGrid .d-sm-flex {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.EIFilterModuleStyles__clearAll,
+.EIFilterModuleStyles__noFilterText {
+  line-height: 32px;
+}
+.EIFilterModuleStyles__noFilterText:before {
+  /* background-image: url(
+    data:image/svg + xml;charset=utf-8,
+    %3Csvgxmlns='http://www.w3.org/2000/svg'xmlns:xlink='http://www.w3.org/1999/xlink'width='24'height='24'%3E%3Cdefs%3E%3Cpathid='a'd='M12 21a9 9 0 110-18 9 9 0 010 18zm-1-10v6a1 1 0 002 0v-6a1 1 0 00-2 0zm1-3a1 1 0 100-2 1 1 0 000 2z'/%3E%3C/defs%3E%3Cgfill='none'fill-rule='evenodd'%3E%3Cmaskid='b'fill='%23777'%3E%3Cusexlink:href='%23a'/%3E%3C/mask%3E%3Cusefill='%232AABDE'xlink:href='%23a'/%3E%3Cgfill='%231861bf'mask='url(%23b)'%3E%3Cpathd='M0 0h24v24H0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E
+  ); */
+  content: '';
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  line-height: 32px;
+  margin-right: 4px;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+.JobsListStyles__jobListContainer .JobsListStyles__jobList {
+  list-style: none;
+  padding: 0;
+}
+.JobsListStyles__jobListContainer .JobsListStyles__jobList .JobsListStyles__jobListItem {
+  margin: 0;
+  border-bottom: 1px solid #c2c2c2;
+  padding: 16px;
+}
+.gdGrid .col-10 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 83.33333333%;
+  -ms-flex: 0 0 83.33333333%;
+  flex: 0 0 83.33333333%;
+  max-width: 83.33333333%;
+}
+.JobDetailsStyles__iconLink img {
+  height: 40px;
+  width: 40px;
+}
+.JobDetailsStyles__jobInfoContainer {
+  overflow: hidden;
+}
+.JobDetailsStyles__jobInfoContainer .JobDetailsStyles__jobTitle {
+  color: #1861bf;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 16px;
+}
+.JobDetailsStyles__jobInfoContainer .JobDetailsStyles__companyInfo {
+  font-size: 15px;
+  line-height: 20px;
+}
+.JobDetailsStyles__jobInfoContainer .JobDetailsStyles__companyInfo span {
+  color: #7f7f7f;
+}
+.JobsListItemStyles__jobDetailsContainer .JobsListItemStyles__saveIconButton {
+  width: 24px;
+  height: 24px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.JobsListItemStyles__jobDetailsContainer
+  .JobsListItemStyles__saveIconButton
+  .JobsListItemStyles__saveIcon {
+  pointer-events: none;
+}
+.gdGrid .col-2 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 16.66666667%;
+  -ms-flex: 0 0 16.66666667%;
+  flex: 0 0 16.66666667%;
+  max-width: 16.66666667%;
+}
+.align-items-end {
+  -webkit-box-align: end !important;
+  -webkit-align-items: flex-end !important;
+  -ms-flex-align: end !important;
+  align-items: flex-end !important;
+}
+.css-r97zbm {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  border-color: transparent;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+  display: inline-block;
+  line-height: 1.6;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  font-family: 'Lato';
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+  background-color: #1861bf;
+  padding: 7px 16px;
+}
+button.EIFilterModuleStyles__filterBtn,
+button.EIFilterModuleStyles__findBtn {
+  overflow: visible;
+}
+.gdGrid .d-md-inline {
+  display: inline !important;
+}
+.css-r97zbm:hover {
+  background-color: #0c4085;
+  color: #fff;
+}
+.EIFilterModuleStyles__ctaButtonContainer button.EIFilterModuleStyles__findBtn {
+  margin-left: 8px;
+}
+.css-1ef15q7 {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  border-color: transparent;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+  display: inline-block;
+  line-height: 1.6;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  font-family: 'Lato';
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+  color: #20262e;
+  background-color: #fff;
+  border-color: #c4c7cc;
+  padding: 7px 16px;
+}
+.InputStyles__input:active,
+.InputStyles__input:focus {
+  -webkit-box-shadow: 0 0 0 2px #8cdeff;
+  box-shadow: 0 0 0 2px #8cdeff;
+  outline: none;
+  border-color: #c2c2c2 !important;
+}
+.InputStyles__input:hover {
+  border-color: #7f7f7f;
+}

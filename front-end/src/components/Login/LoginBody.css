@@ -1,0 +1,441 @@
+section.lockedHero {
+  height: 594px;
+}
+section.lockedHero {
+  position: relative;
+  overflow-x: hidden;
+}
+section div,
+.lockedHome section p,
+.lockedHome section .p {
+  color: #505863;
+}
+section.lockedHero .bannerImage {
+  position: relative;
+  left: 50%;
+  width: 1125px;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+section.lockedHero .bannerImage {
+  width: 4020px;
+}
+section.lockedHero .bannerImage .bannerImageLeft {
+  background: url(https://www.glassdoor.com/app/static/img/home/vr.jpg?v=79eecfy37) no-repeat top
+    right;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+section.lockedHero .bannerImage .bannerImageLeft,
+.lockedHome section.lockedHero .bannerImage .bannerImageCenter,
+.lockedHome section.lockedHero .bannerImage .bannerImageRight {
+  width: 375px;
+  height: 162px;
+}
+section.lockedHero .bannerImage .bannerImageLeft,
+.lockedHome section.lockedHero .bannerImage .bannerImageCenter,
+.lockedHome section.lockedHero .bannerImage .bannerImageRight {
+  width: 1340px;
+  height: 594px;
+}
+section.lockedHero .bannerImage .bannerImageCenter {
+  background: url(https://www.glassdoor.com/app/static/img/home/drone.jpg?v=46ac5evpx) no-repeat top
+    right;
+  width: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+section.lockedHero .bannerImage .bannerImageLeft,
+.lockedHome section.lockedHero .bannerImage .bannerImageCenter,
+.lockedHome section.lockedHero .bannerImage .bannerImageRight {
+  width: 375px;
+  height: 162px;
+}
+section.lockedHero .bannerImage .bannerImageLeft,
+.lockedHome section.lockedHero .bannerImage .bannerImageCenter,
+.lockedHome section.lockedHero .bannerImage .bannerImageRight {
+  width: 1340px;
+  height: 594px;
+}
+section.lockedHero .bannerImage .bannerImageRight {
+  background: url(https://www.glassdoor.com/app/static/img/home/office.jpg?v=7f41fdy6h) no-repeat
+    top right;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+section.lockedHero .bannerImage .bannerImageLeft,
+.lockedHome section.lockedHero .bannerImage .bannerImageCenter,
+.lockedHome section.lockedHero .bannerImage .bannerImageRight {
+  width: 375px;
+  height: 162px;
+}
+section.lockedHero .bannerImage .bannerImageLeft,
+.lockedHome section.lockedHero .bannerImage .bannerImageCenter,
+.lockedHome section.lockedHero .bannerImage .bannerImageRight {
+  width: 1340px;
+  height: 594px;
+}
+section.lockedHero .lockedSignUp {
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.4) 139px,
+    rgba(0, 0, 0, 0.2) 162px,
+    rgba(0, 0, 0, 0) 114px
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.4) 139px,
+    rgba(0, 0, 0, 0.2) 162px,
+    rgba(0, 0, 0, 0) 114px
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.4) 139px,
+    rgba(0, 0, 0, 0.2) 162px,
+    rgba(0, 0, 0, 0) 114px
+  );
+  padding-top: 48px;
+  position: relative;
+  top: -162px;
+  margin-bottom: -162px;
+}
+section.lockedHero .lockedSignUp {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 0.5)),
+    color-stop(86%, rgba(0, 0, 0, 0.4)),
+    to(rgba(0, 0, 0, 0.2))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.4) 86%,
+    rgba(0, 0, 0, 0.2)
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.4) 86%,
+    rgba(0, 0, 0, 0.2)
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.4) 86%,
+    rgba(0, 0, 0, 0.2)
+  );
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-bottom: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #0d0d0d;
+  margin: 16px 0;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  -moz-font-variant-ligatures: no-common-ligatures;
+  font-variant-ligatures: no-common-ligatures;
+  -moz-font-feature-settings: 'liga' 0, 'clig' 0;
+  -webkit-font-feature-settings: 'liga' 0, 'clig' 0;
+  font-feature-settings: 'liga' 0, 'clig' 0;
+  font-weight: 400;
+}
+h1,
+.h1 {
+  font-size: 24px;
+  line-height: 32px;
+}
+.center {
+  text-align: center !important;
+}
+h1.center,
+h2.center,
+h3.center,
+h4.center,
+h5.center,
+h6.center,
+.h1.center,
+.h2.center,
+.h3.center,
+.h4.center,
+.h5.center,
+.h6.center {
+  text-align: center;
+}
+.gdGrid .m-0 {
+  margin: 0 !important;
+}
+section.lockedHero .lockedSignUp h1 {
+  color: #fff !important;
+  font-weight: bold;
+}
+section.lockedHero .lockedSignUp h1 {
+  font-size: 30px;
+  line-height: 1.2em;
+}
+section div,
+.lockedHome section p,
+.lockedHome section .p {
+  color: #505863;
+}
+.gdGrid .pb-lg {
+  padding-bottom: 24px !important;
+}
+section.lockedHero .lockedSignUp .post-job {
+  font-size: 15px;
+}
+section.lockedHero .lockedSignUp .post-job,
+.lockedHome section.lockedHero .lockedSignUp .post-job a {
+  color: #fff;
+}
+section.lockedHero .lockedSignUp .post-job {
+  font-size: 18px;
+  line-height: 24px;
+}
+section.lockedHero .lockedSignUp a {
+  border-bottom: 1px dotted #fff;
+}
+section.lockedHero .lockedSignUp .post-job,
+.lockedHome section.lockedHero .lockedSignUp .post-job a {
+  color: #fff;
+}
+#InlineLoginModule {
+  width: 600px;
+}
+.gdUserLogin {
+  max-width: 100%;
+}
+.gdUserLogin div {
+  line-height: 20px;
+}
+.gdGrid .px-sm-xxl {
+  padding-right: 32px !important;
+  padding-left: 32px !important;
+}
+#InlineLoginModule .signup,
+.lockedHome #InlineLoginModule .emailSignUpForm {
+  max-width: 100%;
+}
+.gdGrid .mt-sm-std {
+  margin-top: 16px !important;
+}
+.gdGrid .my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.gdGrid .mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.gdUserLogin .maxw-sm-authInlineInner {
+  max-width: 460px;
+}
+#InlineLoginModule .maxw-sm-authInlineInner {
+  max-width: 100% !important;
+}
+.gdUserLogin .legalText {
+  font-size: 12px;
+  line-height: 18px;
+}
+.gdUserLogin .legalText {
+  font-size: 12px;
+  line-height: 18px;
+}
+.lockedSignUp .gdUserLogin .checkboxLabel,
+.lockedSignUp .gdUserLogin .legalText,
+.lockedSignUp .gdUserLogin .legalText a.link,
+.lockedSignUp .gdUserLogin .orText,
+.lockedSignUp .gdUserLogin [data-test='error'],
+.lockedSignUp .gdUserLogin [data-test='helper'] {
+  color: #fff !important;
+}
+input,
+textarea,
+keygen,
+select,
+button,
+isindex {
+  margin: 0;
+}
+input,
+select,
+textarea,
+.textareaShadow,
+.nonPlaceholder {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+}
+section.lockedHero .lockedSignUp .css-1ohf0ui {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+label {
+  display: inline-block;
+}
+.css-2ku426 {
+  padding-bottom: 4px;
+  transform-origin: 0px 50%;
+  transition: transform 0.2s ease 0s;
+  position: relative;
+  z-index: 1;
+  color: rgb(133, 140, 148);
+  font-size: 16px;
+  top: 37px;
+  margin-top: -23px;
+  left: 12px;
+}
+label[for] {
+  cursor: pointer;
+}
+.css-dacmey {
+  box-sizing: border-box;
+  font-size: 15px;
+  border-radius: 3px;
+  border: 1px solid rgb(196, 199, 204);
+  padding: 0px 48px 0px 12px;
+  font-family: Lato, sans-serif;
+  color: rgb(80, 88, 99);
+  width: 100%;
+  line-height: normal;
+}
+.css-dacmey.css-dacmey {
+  padding-top: 16px;
+  height: 48px;
+}
+.css-1sltif6 {
+  position: absolute;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  top: 50%;
+  right: 12px;
+  left: auto;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+}
+.grey-400 {
+  color: #858c94;
+}
+.css-1sltif6 > * {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+.gdGrid .mt-std {
+  margin-top: 16px !important;
+}
+.css-8i7bc2 {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 8px 16px;
+  display: inline-block;
+  line-height: 1.6;
+  user-select: none;
+  vertical-align: middle;
+  transition: color 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
+  font-family: Lato;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+}
+.css-8i7bc2,
+button.css-8i7bc2 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(24, 97, 191);
+  padding: 7px 16px;
+}
+.gdUserLogin .minWidthBtn {
+  min-width: 176px;
+}
+.gdUserLogin button.signupSubmit {
+  -webkit-transition: -webkit-box-shadow 0.25s ease-in-out;
+  transition: -webkit-box-shadow 0.25s ease-in-out;
+  -o-transition: box-shadow 0.25s ease-in-out;
+  transition: box-shadow 0.25s ease-in-out;
+  transition: box-shadow 0.25s ease-in-out, -webkit-box-shadow 0.25s ease-in-out;
+  transition: box-shadow 0.25s ease-in-out, -webkit-box-shadow 0.25s ease-in-out;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.35);
+}
+.css-8i7bc2[disabled],
+button.css-8i7bc2[disabled] {
+  background-color: rgb(171, 204, 247);
+  cursor: not-allowed;
+}
+.gdUserLogin button.signupSubmit:disabled {
+  background-color: #1861bf;
+  border-color: #1861bf;
+  color: #abccf7;
+  -webkit-box-shadow: 0 2px 6px 0 transparent;
+  box-shadow: 0 2px 6px 0 transparent;
+}
+#InlineLoginModule button {
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+.css-5eiq8t {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 5px 0px 0px 12px;
+  color: rgb(217, 62, 48);
+}
+.css-w6c9ax {
+  padding-bottom: 4px;
+  transform-origin: 0px 50%;
+  transition: transform 0.2s ease 0s;
+  position: relative;
+  z-index: 1;
+  color: rgb(133, 140, 148);
+  font-size: 16px;
+  top: 37px;
+  margin-top: -23px;
+  left: 12px;
+  transform: scale(0.75) translateY(-14px);
+}
+.css-5eiq8t {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 5px 0px 0px 12px;
+  color: rgb(217, 62, 48) !important;
+}

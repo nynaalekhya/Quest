@@ -1,0 +1,167 @@
+.gdGrid .m-md-xxl {
+  margin: 32px !important;
+}
+.resumeImportStyle__resumeImportContainer___17nYQ {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1232px;
+}
+.profileHeaderStyle__profileHeader___1PFKD {
+  position: relative;
+  margin-bottom: 32px;
+}
+.profileHeaderStyle__profileHeader___1PFKD {
+  margin-bottom: 52px;
+}
+.profileHeaderStyle__coverImageContainer___3Wlzw {
+  overflow: hidden;
+  height: 103px;
+  border-radius: 3px;
+}
+.profileHeaderStyle__profileHeader___1PFKD .defaultCoverImage {
+  background-image: -webkit-linear-gradient(315deg, #0d7065, #00a13e);
+  background-image: -o-linear-gradient(315deg, #0d7065 0, #00a13e 100%);
+  background-image: linear-gradient(-225deg, #0d7065, #00a13e);
+}
+.profileHeaderStyle__profileImageContainer___r2JtV {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 32px;
+  position: absolute;
+  width: 100%;
+}
+.profileHeaderStyle__profileImageEditableContainer___FBk86 {
+  position: relative;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  background: #fff;
+  overflow: hidden;
+  width: 90px;
+  height: 90px;
+}
+#resumeUploadPage {
+  display: flex !important;
+}
+button.resumeImportStyle__backBtn___3NR7k {
+  font-weight: 500;
+  line-height: 24px;
+}
+button.resumeImportStyle__backBtn___3NR7k {
+  color: #1861bf;
+  min-width: 0;
+}
+.resumeImportStyle__heading___1RVvh {
+  color: #20262e;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: center;
+}
+.resumeImportStyle__caption___38oQb {
+  color: #505863;
+  text-align: center;
+}
+.resumeImportStyle__caption___38oQb,
+button.resumeImportStyle__backBtn___3NR7k {
+  font-weight: 500;
+  line-height: 24px;
+}
+.gdGrid .mb-xxl {
+  margin-bottom: 32px !important;
+}
+.FileSelectStyle__fileSelectContainer___1DTiu {
+  width: 100%;
+}
+.gdGrid .d-md-none {
+  display: none !important;
+}
+.FileSelectStyle__selectBtn___11LMC {
+  background-color: #1861bf;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 8px 12px;
+}
+.FileSelectStyle__selectBtn___11LMC > .resumeIcon {
+  height: 24px;
+  width: 24px;
+}
+.FileSelectStyle__hidden___3GP5h {
+  display: none;
+  height: 0;
+  width: 0;
+}
+.css-rh65zj {
+  display: flex;
+  flex-direction: column;
+}
+.css-rh65zj label {
+  box-sizing: border-box;
+  min-height: 167px;
+  border-radius: 3px;
+  border: 1px dashed rgb(133, 140, 148);
+  background-color: rgb(245, 246, 247);
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-size: 15px;
+  color: rgb(80, 88, 99);
+}
+div.FileSelectStyle__desktop___2yYuv > label {
+  background-color: #fff;
+  border: none;
+  -webkit-box-shadow: #c4c7cc 0 0 2px;
+  box-shadow: 0 0 2px #c4c7cc;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-transition: -webkit-box-shadow 0.24s cubic-bezier(0.2, 0, 0.38, 0.9);
+  transition: -webkit-box-shadow 0.24s cubic-bezier(0.2, 0, 0.38, 0.9);
+  -o-transition: box-shadow 0.24s cubic-bezier(0.2, 0, 0.38, 0.9);
+  transition: box-shadow 0.24s cubic-bezier(0.2, 0, 0.38, 0.9);
+  transition: box-shadow 0.24s cubic-bezier(0.2, 0, 0.38, 0.9),
+    -webkit-box-shadow 0.24s cubic-bezier(0.2, 0, 0.38, 0.9);
+}
+.gdGrid .mb-xl {
+  margin-bottom: 28px !important;
+}
+.FileSelectStyle__selectedFile___1oIf1 > .uploadIcon {
+  color: #1861bf;
+  height: 72px;
+  width: 72px;
+}
+.FileSelectStyle__selectedFile___1oIf1 > div {
+  color: #505863;
+}
+.FileSelectStyle__selectedFile___1oIf1 .FileSelectStyle__replaceBtn___1budq {
+  color: #505863;
+  font-weight: 700;
+  line-height: 24px;
+}
+div.FileSelectStyle__desktop___2yYuv > label > a,
+div.FileSelectStyle__desktop___2yYuv > label > span,
+div.FileSelectStyle__desktop___2yYuv > label > span + div {
+  display: none;
+}
+div.FileSelectStyle__desktop___2yYuv > label > a,
+div.FileSelectStyle__desktop___2yYuv > label > span,
+div.FileSelectStyle__desktop___2yYuv > label > span + div {
+  display: none;
+}
+.css-y1gt6f {
+  margin-top: 40px;
+}
+.css-1iue7ku[disabled] {
+  background-color: rgb(171, 204, 247);
+  cursor: not-allowed;
+}

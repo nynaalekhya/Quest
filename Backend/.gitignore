@@ -1,0 +1,5 @@
+/node_modules
+.env
+config.js
+mysqlConnection.js
+new_user_credentials.csv

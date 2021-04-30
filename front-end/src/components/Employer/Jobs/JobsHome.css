@@ -1,0 +1,96 @@
+body.hasTwoPanes #JobSearch,
+body.hasTwoPanes #PageBodyContents,
+body.hasTwoPanes #PageContent {
+  height: 100%;
+}
+
+body.hasTwoPanes #JobSearch > .noPad {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+body.hasTwoPanes #JobResults {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  position: relative;
+}
+body.flex,
+body.flex * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+
+body.hasTwoPanes #JobResults #PanesWrap {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+body.serpControl.hasTwoPanes #PanesWrap {
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+body.hasTwoPanes:not(.hasFilters) #PanesWrap {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#JDWrapper {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  height: 100%;
+  margin-top: 0;
+}
+#JDWrapper {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  height: 100%;
+}
+
+.css-1w3asej {
+  border-bottom: 1px solid rgb(245, 246, 247);
+  text-transform: capitalize;
+}
+
+body.hasTwoPanes .pageContentWrapper {
+  height: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+#PageContent {
+  height: 100%;
+  width: 1280px;
+}
+body.wide #PageContent {
+  max-width: 1280px none!important;
+  width: 100%;
+}
+.pageContentWrapper #PageContent {
+  position: initial;
+}
+
+body.hasTwoPanes #JobSearch,
+body.hasTwoPanes #PageBodyContents,
+body.hasTwoPanes #PageContent {
+  height: 100%;
+}
+

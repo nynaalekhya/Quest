@@ -1,0 +1,269 @@
+.jlGrid .jl {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 12px;
+  margin: 0;
+  border-top: 1px solid #dee0e3;
+  position: relative;
+  cursor: pointer;
+}
+
+.jlGrid .jl {
+  -webkit-transition: -webkit-box-shadow 0.25s ease-in-out;
+  transition: -webkit-box-shadow 0.25s ease-in-out;
+  -o-transition: box-shadow 0.25s ease-in-out;
+  transition: box-shadow 0.25s ease-in-out;
+  transition: box-shadow 0.25s ease-in-out, -webkit-box-shadow 0.25s ease-in-out;
+  -webkit-box-shadow: 0 0 0 0 transparent;
+  box-shadow: 0 0 0 0 transparent;
+  border-radius: 3px;
+  padding: 12px 16px;
+}
+.jlGrid .jl.selected {
+  background-color: #fff;
+}
+.jlGrid.hover .jl {
+  cursor: pointer;
+}
+.jlGrid .jl.selected {
+  border: 1.5px solid #2aabde;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+.jlGrid .jl > div {
+  padding: 0 12px;
+}
+.jlGrid .jl > div:first-child {
+  padding: 0;
+  -webkit-flex-basis: 42px;
+  -ms-flex-preferred-size: 42px;
+  flex-basis: 42px;
+}
+.jlGrid .jobLink {
+  font-size: 16px;
+  font-weight: 600;
+}
+.css-9ujsbx {
+  background: #fff;
+  border: 1px solid #dee0e3;
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 0;
+  padding: 2px;
+  position: relative;
+}
+img {
+  text-indent: -9999px;
+}
+a img {
+  border: none;
+}
+.css-9ujsbx img {
+  height: 32px;
+  width: 32px;
+}
+.compactStars {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border: 1px solid #0caa41;
+  border-radius: 2px;
+  color: #0caa41;
+  font-size: 14px;
+  padding: 0 4px;
+}
+
+.css-fbt9gv .compactStars {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 0;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0 4px;
+}
+
+.jlGrid .jl .compactStars {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  top: -1px;
+  position: relative;
+  font-size: 14px;
+  border: 1px solid #0caa41;
+  border-radius: 2px;
+  border-color: #c2c2c2;
+  color: #0caa41;
+  padding: 0 4px;
+}
+.jlGrid .jl .compactStars {
+  border: 0;
+  font-size: 12px;
+  top: 0;
+  padding: 0 4px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  height: 20px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.compactStars i.star {
+  -webkit-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  transform: scale(0.75);
+  margin-left: 2px;
+}
+.css-nq3w9f {
+  -webkit-box-flex: 100 !important;
+  -webkit-flex-grow: 100 !important;
+  -ms-flex-positive: 100 !important;
+  flex-grow: 100 !important;
+}
+
+.gdGrid .pl-sm {
+  padding-left: 12px !important;
+}
+.jlGrid .jl > div:last-child {
+  padding-right: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+}
+.css-10l5u4p span {
+  color: #505863;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.jlGrid .jl .saveJobWrap {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+.css-9th5vf {
+  color: #1861bf;
+}
+.jobTitle {
+  line-height: 22px;
+}
+.css-jq9w1v {
+  font-weight: normal !important;
+}
+.css-13w0lq6 span {
+  color: #505863;
+}
+.css-yytu5e {
+  font-size: 12px;
+  line-height: 20px;
+  width: 100%;
+}
+.jlGrid .jl .loc {
+  font-weight: normal;
+  color: #7f7f7f;
+}
+.css-1tspwab .e1wijj242 {
+  font-size: 12px;
+}
+.css-18034rf .e1wijj240 {
+  font-size: 0.9em;
+  margin: 0 4px;
+  position: relative;
+}
+.css-18034rf {
+  font-size: 14px;
+  color: #858c94;
+}
+.css-1tspwab .e1wijj242 {
+  font-size: 12px;
+}
+.css-18034rf .greyInfoIcon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  top: 0.25em;
+}
+.css-18034rf svg {
+  height: 1.35em;
+  width: 1.35em;
+}
+.hidden {
+  display: none !important;
+}
+.css-1fjcg6i {
+  width: 100%;
+  -webkit-box-flex: 1 !important;
+  flex-grow: 1 !important;
+}
+.flex-wrap-reverse {
+  -webkit-flex-wrap: wrap-reverse !important;
+  -ms-flex-wrap: wrap-reverse !important;
+  flex-wrap: wrap-reverse !important;
+}
+.css-1qtdns2 {
+  -webkit-box-flex: 1 !important;
+  -webkit-flex-grow: 1 !important;
+  -ms-flex-positive: 1 !important;
+  flex-grow: 1 !important;
+}
+.css-mi55ob {
+  font-size: 12px !important;
+  line-height: 20px !important;
+}
+.css-15ja3jn {
+  margin: 0 -4px !important;
+}
+.css-q9egvk {
+  -webkit-box-flex: 1 !important;
+  flex-grow: 1 !important;
+  font-size: 12px !important;
+  line-height: 20px !important;
+}
+.gdGrid .mx-xxsm {
+  margin-right: 4px !important;
+  margin-left: 4px !important;
+}
+.gdGrid .pr-std {
+  padding-right: 16px !important;
+}
+.jlGrid .jl.selected:before {
+  width: 3px;
+  background-color: #00a1df;
+  height: 100%;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.jlGrid .jl.selected:before {
+  width: 8px;
+  border-radius: 1px;
+  background-color: #2aabde;
+}
+.jlGrid .jl .compactStars .star:before {
+  content: ' \2605';
+}

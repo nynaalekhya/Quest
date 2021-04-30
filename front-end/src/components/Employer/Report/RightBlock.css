@@ -1,0 +1,49 @@
+.flex-column {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+}
+
+.css-1adfoly {
+    font-size: 12px;
+    line-height: 12px;
+    white-space: nowrap;
+}
+
+.gdGrid .ml-auto {
+    margin-left: auto !important;
+}
+
+.gdGrid .ml-xsm {
+    margin-left: 8px !important;
+}
+
+.css-1adfoly.c0:before {
+    background: #0c4085;
+}
+.css-1adfoly:before {
+    background: transparent;
+    border-radius: 2px;
+    content: ' ';
+    display: block;
+    height: 12px;
+    margin-right: 8px;
+    width: 12px;
+}
+
+.css-lcvd8h {
+    width: 100%;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 24px;
+    color: #505863;
+    padding: 24px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+    border: solid 1px #dee0e3;
+    box-shadow: 0 0 2px 0 #c4c7cc;
+    background-color: #fff;
+    box-sizing: border-box;
+}

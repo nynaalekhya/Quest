@@ -1,0 +1,484 @@
+#JDCol {
+  -webkit-flex-basis: 60%;
+  -ms-flex-preferred-size: 60%;
+  flex-basis: 60%;
+  overflow-y: scroll;
+  position: relative;
+  -ms-flex-preferred-size: 59%;
+}
+#JDWrapper {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  height: 100%;
+  margin-top: 0;
+}
+#JDWrapper .jobDetails {
+  height: calc(100% - 65px);
+}
+.jobViewMinimal {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+#HeroHeaderModule {
+  background-color: #fff;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+#CompanyBanner {
+  position: relative;
+  min-height: 59px;
+  max-height: 135px;
+  font-size: 0;
+}
+#CompanyBanner img {
+  width: 100%;
+  height: auto;
+  max-height: 135px;
+}
+.empWrapper,
+.empWrapper .actionSection {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.empInfo,
+.empWrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.empWrapper {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+#HeroHeaderModule .empWrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+#HeroHeaderModule .empWrapper.ctasTest {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.empInfo.newDetails {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+#HeroHeaderModule .empWrapper.ctasTest .empInfo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+#HeroHeaderModule .empWrapper.ctasTest .empInfo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.empInfo.newDetails .employerName {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.33;
+}
+.empInfo.newDetails .employerName {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.33;
+}
+#HeroHeaderModule .empWrapper.ctasTest .empInfo > * {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  width: auto;
+}
+#HeroHeaderModule .empWrapper.ctasTest .empInfo > * {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  width: auto;
+}
+.empInfo .rating {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #0caa41;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  font-weight: 700;
+  top: -1px;
+  position: relative;
+}
+.empInfo.newDetails .rating {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #0caa41;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 10px;
+  top: -1px;
+  position: relative;
+}
+.empInfo .ratingStar {
+  color: #0caa41;
+  font-size: 9px;
+  margin-left: 2px;
+}
+.empInfo.newDetails .ratingStar {
+  color: #0caa41;
+  font-size: 9px;
+  margin-left: 2px;
+}
+.empInfo.newDetails .ratingStar:before {
+  content: '\2605';
+}
+.empInfo.newDetails .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.location {
+  color: #858c94;
+}
+.location,
+.salary {
+  font-size: 12px;
+  line-height: 20px;
+}
+.empInfo.newDetails .age,
+.empInfo.newDetails .division,
+.empInfo.newDetails .location,
+.empInfo.newDetails .salary {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  line-height: 1.67;
+}
+.empInfo.newDetails .age > *,
+.empInfo.newDetails .division > *,
+.empInfo.newDetails .location > *,
+.empInfo.newDetails .salary > * {
+  font-size: 12px;
+  line-height: 1.67;
+}
+.css-1uyte9r {
+  color: rgb(133, 140, 148);
+}
+.css-hca4ks .e1wijj240 {
+  font-size: 0.9em;
+  margin: 0px 4px;
+  position: relative;
+}
+
+.css-hca4ks .greyInfoIcon {
+  display: inline-flex;
+  position: relative;
+  top: 0.25em;
+}
+.empWrapper .actionSection {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+#HeroHeaderModule .empWrapper.ctasTest .ctasWrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin-left: 8px;
+}
+body ::-webkit-scrollbar-track {
+  background: #fff;
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+body ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+body ::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 0;
+}
+.empInfo .ctasWrap .ctas2,
+.empWrapper .ctasWrap .ctas2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-bottom: 16px;
+  z-index: 2;
+}
+
+.empInfo .ctasWrap .ctas2 .applyCTA,
+.empInfo .ctasWrap .ctas2 .moreCTAs,
+.empInfo .ctasWrap .ctas2 .saveCTA,
+.empWrapper .ctasWrap .ctas2 .applyCTA,
+.empWrapper .ctasWrap .ctas2 .moreCTAs,
+.empWrapper .ctasWrap .ctas2 .saveCTA {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+.empInfo .ctasWrap .ctas2 .applyCTA,
+.empWrapper .ctasWrap .ctas2 .applyCTA {
+  padding-left: 0;
+}
+.empInfo .ctasWrap .ctas2 .applyCTA,
+.empInfo .ctasWrap .ctas2 .moreCTAs,
+.empInfo .ctasWrap .ctas2 .saveCTA,
+.empWrapper .ctasWrap .ctas2 .applyCTA,
+.empWrapper .ctasWrap .ctas2 .moreCTAs,
+.empWrapper .ctasWrap .ctas2 .saveCTA {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+.empInfo .ctasWrap .ctas2 .applyCTA,
+.empWrapper .ctasWrap .ctas2 .applyCTA {
+  padding-left: 0;
+}
+.noMargHorz,
+.noMargRt {
+  margin-right: 0 !important;
+}
+.css-1c58wfr {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.6;
+  user-select: none;
+  vertical-align: middle;
+  transition: color 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
+  font-family: Lato;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(24, 97, 191);
+  padding: 7px 16px;
+}
+.css-1c58wfr:hover {
+  background-color: rgb(12, 64, 133);
+  color: rgb(255, 255, 255);
+}
+.css-1c58wfr:visited {
+  color: rgb(255, 255, 255);
+}
+.icon-offsite-white {
+  background-image: url(https://www.glassdoor.com/jobs-ux-app/static/img/sprites/newjob-search.png?v=aa490c5uu);
+  background-position: -133px -101px;
+  width: 16px;
+  height: 13px;
+}
+.css-1c58wfr > i,
+.css-1c58wfr span {
+  color: rgb(255, 255, 255);
+}
+.empInfo .ctasWrap .ctas2 .moreCTAs,
+.empInfo .ctasWrap .ctas2 .saveCTA,
+.empWrapper .ctasWrap .ctas2 .moreCTAs,
+.empWrapper .ctasWrap .ctas2 .saveCTA {
+  padding-left: 16px;
+  position: relative;
+}
+.css-zve8bc {
+  vertical-align: middle !important;
+}
+.heart {
+  position: relative;
+  top: 2px;
+}
+.margRtXs {
+  margin-right: 8px !important;
+}
+.css-17lrvax {
+  display: flex;
+}
+.css-17lrvax {
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin: 0px 16px 16px;
+}
+.css-17lrvax:last-child {
+  margin-right: 0px;
+}
+.css-bhqyka {
+  border: 1px solid rgb(222, 224, 227);
+  border-radius: 3px;
+  margin-right: 16px;
+  padding: 16px;
+  width: 351px;
+}
+.css-4t3aaj {
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 24px;
+  margin: 0px;
+}
+.css-dqdcxk {
+  font-size: 15px;
+  line-height: 24px;
+  overflow: hidden;
+  padding-top: 4px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#Details {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-bottom: 40px;
+}
+#JDCol #Details {
+  position: relative;
+}
+.jobDetailsInfoWrap {
+  background: #fff;
+  padding-bottom: 70px;
+}
+.scrollableTabs {
+  border-bottom: 1px solid #e7e7e7;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  overflow-style: none;
+  overflow-scrolling: touch;
+}
+.scrollableTabs .tab {
+  background: #fff;
+  position: relative;
+}
+.scrollableTabs .tab span {
+  cursor: pointer;
+  display: inline-block;
+  line-height: 22px;
+  padding: 16px;
+  -webkit-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+  white-space: nowrap;
+}
+.scrollableTabs .tab.active span {
+  color: #404040;
+}
+.jobDetailsInfoWrap .scrollableTabContainer .scrollableTabs .tab span {
+  padding: 8px 16px 12px;
+}
+.scrollableTabs .tab.active:after {
+  background-color: #00a1df;
+  bottom: 0;
+  content: '';
+  height: 3px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}

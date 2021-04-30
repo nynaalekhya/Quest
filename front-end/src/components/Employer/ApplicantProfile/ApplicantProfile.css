@@ -1,0 +1,13 @@
+.gdGrid .col-1, .gdGrid .col-2, .gdGrid .col-3, .gdGrid .col-4, .gdGrid .col-5, .gdGrid .col-6, .gdGrid .col-7, .gdGrid .col-8, .gdGrid .col-9, .gdGrid .col-10, .gdGrid .col-11, .gdGrid .col-12, .gdGrid .col, .gdGrid .col-auto, .gdGrid .col-sm-1, .gdGrid .col-sm-2, .gdGrid .col-sm-3, .gdGrid .col-sm-4, .gdGrid .col-sm-5, .gdGrid .col-sm-6, .gdGrid .col-sm-7, .gdGrid .col-sm-8, .gdGrid .col-sm-9, .gdGrid .col-sm-10, .gdGrid .col-sm-11, .gdGrid .col-sm-12, .gdGrid .col-sm, .gdGrid .col-sm-auto, .gdGrid .col-md-1, .gdGrid .col-md-2, .gdGrid .col-md-3, .gdGrid .col-md-4, .gdGrid .col-md-5, .gdGrid .col-md-6, .gdGrid .col-md-7, .gdGrid .col-md-8, .gdGrid .col-md-9, .gdGrid .col-md-10, .gdGrid .col-md-11, .gdGrid .col-md-12, .gdGrid .col-md, .gdGrid .col-md-auto, .gdGrid .col-lg-1, .gdGrid .col-lg-2, .gdGrid .col-lg-3, .gdGrid .col-lg-4, .gdGrid .col-lg-5, .gdGrid .col-lg-6, .gdGrid .col-lg-7, .gdGrid .col-lg-8, .gdGrid .col-lg-9, .gdGrid .col-lg-10, .gdGrid .col-lg-11, .gdGrid .col-lg-12, .gdGrid .col-lg, .gdGrid .col-lg-auto, .gdGrid .col-xl-1, .gdGrid .col-xl-2, .gdGrid .col-xl-3, .gdGrid .col-xl-4, .gdGrid .col-xl-5, .gdGrid .col-xl-6, .gdGrid .col-xl-7, .gdGrid .col-xl-8, .gdGrid .col-xl-9, .gdGrid .col-xl-10, .gdGrid .col-xl-11, .gdGrid .col-xl-12, .gdGrid .col-xl, .gdGrid .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+
+.applicationStyle__profileApplication___Jyu4n {
+    background: #fff none;
+    margin: 0 auto 16px;
+    min-height: 580px;
+    max-width: 1040px;
+    width: 100%;
+}

@@ -1,0 +1,5 @@
+.search__SearchStyles__searchDropdown .dropdownCollapsed {
+    border: none;
+    overflow: hidden;
+    max-height: 0;
+}

@@ -1,0 +1,224 @@
+.css-tb9ljb {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+  z-index: 8000;
+  animation-name: showModal;
+  animation-duration: 400ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+}
+.css-tb9ljb .background-overlay {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background: rgb(32, 38, 46);
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+}
+.gd-ui-modal .modal_main {
+  min-height: 412px;
+}
+
+.css-tb9ljb .modal_main {
+  position: relative;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  padding: 40px 32px 32px;
+  box-shadow: rgb(182, 187, 194) 0px 0px 2px 0px;
+  width: 600px;
+  max-height: 80%;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgb(80, 88, 99);
+  display: flex;
+  flex-flow: column;
+  animation-name: showMain;
+  animation-duration: 400ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+}
+.css-tb9ljb .modal_closeIcon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  cursor: pointer;
+}
+.css-tb9ljb .modal_closeIcon,
+.css-tb9ljb .modal_content,
+.css-tb9ljb .fullContent,
+.css-tb9ljb .modal_title,
+.css-tb9ljb .actionBar {
+  animation-name: hideContents;
+  animation-duration: 400ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+}
+.css-tb9ljb .modal_closeIcon svg path {
+  fill: rgb(196, 199, 204);
+}
+.css-tb9ljb .topShadow {
+  margin-top: 5px;
+}
+.css-tb9ljb .fullContent {
+  overflow: auto;
+  flex: 1 1 auto;
+}
+.gd-ui-modal .modal_main .fullContent {
+  padding: 2px;
+}
+.profileInfoStyle__edit___1qogn {
+  padding: 2px;
+}
+.gdGrid .mb {
+  margin-bottom: 16px !important;
+}
+.css-g7wkni > * {
+  border-radius: 0px !important;
+}
+.css-g7wkni > * {
+  border-top-left-radius: 3px !important;
+  border-bottom-left-radius: 3px !important;
+}
+.css-1iue7ku {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.6;
+  user-select: none;
+  vertical-align: middle;
+  transition: color 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
+  font-family: Lato;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(24, 97, 191);
+  padding: 3px 16px;
+}
+.css-g7wkni > * + * {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+.css-ymq3jr {
+  border: 1px solid rgb(196, 199, 204);
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.6;
+  user-select: none;
+  vertical-align: middle;
+  transition: color 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
+  font-family: Lato;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+  color: rgb(32, 38, 46);
+  background-color: rgb(255, 255, 255);
+  padding: 3px 16px;
+}
+.css-g7wkni > :last-child {
+  border-top-right-radius: 3px !important;
+  border-bottom-right-radius: 3px !important;
+}
+.css-1opum1l {
+  padding-bottom: 4px;
+  transform-origin: 0px 50%;
+  transition: transform 0.2s ease 0s;
+  position: relative;
+  z-index: 1;
+  color: rgb(80, 88, 99);
+  font-size: 12px;
+}
+.css-ofiv3k {
+  box-sizing: border-box;
+  font-size: 15px;
+  border-radius: 3px;
+  border: 1px solid rgb(196, 199, 204);
+  padding: 0px 12px;
+  font-family: Lato, sans-serif;
+  color: rgb(80, 88, 99);
+  width: 100%;
+  line-height: normal;
+}
+.hollywood input,
+.hollywood textarea {
+  border-bottom-color: #c2c2c2 !important;
+}
+.css-ofiv3k.css-ofiv3k {
+  height: 40px;
+}
+.css-tb9ljb .modal_main ::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+.profileInfoStyle__edit___1qogn .profileInfoStyle__basicInfoSpacer___1IUs8 {
+  margin-bottom: 104px;
+}
+.css-tb9ljb .bottomShadow {
+  margin-left: -32px;
+  width: calc(100% + 64px);
+  height: 3px;
+  box-shadow: rgba(105, 113, 122, 0.32) 0px -3px 3px 0px;
+}
+.gd-ui-modal .modal_main .bottomShadow {
+  z-index: 1;
+}
+.gd-ui-modal .actionBar {
+  margin-top: 12px !important;
+}
+.css-tb9ljb .actionBar {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  text-align: center;
+  flex-shrink: 0;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+.css-uk8w9o {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.6;
+  user-select: none;
+  vertical-align: middle;
+  transition: color 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
+  font-family: Lato;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(24, 97, 191);
+  padding: 7px 16px;
+}
+.css-tb9ljb .actionBar button {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.css-tb9ljb .actionBar button:first-of-type {
+  margin-right: 0px;
+}
+.css-ofiv3k:focus,
+.css-ofiv3k:active {
+  box-shadow: rgb(140, 222, 255) 0px 0px 0px 2px;
+  border: 1px solid rgb(0, 161, 223);
+  outline: none;
+}

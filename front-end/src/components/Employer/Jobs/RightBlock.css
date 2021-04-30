@@ -1,0 +1,46 @@
+#JDCol, #MainCol {
+     overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #fff;
+}
+
+.css-1k5huso * {
+    color: rgb(80, 88, 99);
+    line-height: 1.4em;
+}
+
+.css-13klhtw * {
+    color: rgb(80, 88, 99);
+    line-height: 1.4em;
+}
+constructed stylesheet
+.css-1k5huso * {
+    color: rgb(80, 88, 99);
+    line-height: 1.4em;
+}
+
+.jobDetailsFooter {
+    background-color: #eaeaea;
+    bottom: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    left: 0;
+    padding: 0 16px;
+    position: absolute;
+    right: 0;
+}
+
+.padBotSm, .padVertSm {
+    padding-bottom: 12px;
+}
+
+.padTopSm, .padVertSm {
+    padding-top: 12px;
+}

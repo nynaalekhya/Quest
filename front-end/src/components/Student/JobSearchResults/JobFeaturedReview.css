@@ -1,0 +1,192 @@
+.padTop {
+  padding-top: 16px !important;
+}
+.noMargTop,
+.noMargVert {
+  margin-top: 0 !important;
+}
+.noPadHorz,
+.noPadLt {
+  padding-left: 0 !important;
+}
+.noPadHorz,
+.noPadRt {
+  padding-right: 0 !important;
+}
+.noPadBot,
+.noPadVert {
+  padding-bottom: 0 !important;
+}
+#ReviewsContainer .reviews-container ol {
+  list-style: none;
+}
+#ReviewsContainer .reviews-container .dateTime,
+#ReviewsContainer .reviews-container .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+#ReviewsContainer .reviews-container .dateTime {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+#ReviewsContainer .reviews-container .dateTime .date {
+  color: #7f7f7f;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+#ReviewsContainer .reviews-container .reviewTop {
+  margin-top: 16px;
+}
+.showMob,
+.showHH,
+.showTab,
+.showDesk,
+.showWideDesk {
+  display: none !important;
+}
+.showDesk {
+  display: inline-block !important;
+}
+#ReviewsContainer .reviews-container .companyLogo {
+  min-width: 72px;
+}
+#ReviewsContainer .reviews-container .companyLogo .sqLogo {
+  padding: 0;
+  border: none;
+}
+span.sqLogo span,
+span.sqLogo img {
+  width: 70px;
+  height: 70px;
+}
+#ReviewsContainer .reviews-container .companyLogo .sqLogo span {
+  height: 58px;
+  width: 58px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+#ReviewsContainer .reviews-container .companyLogo .sqLogo span img {
+  height: 58px;
+  width: 58px;
+}
+#ReviewsContainer .reviews-container .reviewTop h2 {
+  font-size: 20px;
+  margin: 0 0 8px;
+}
+.padRtSm {
+  padding-right: 12px !important;
+}
+#ReviewsContainer .reviews-container .reviewTop .reviewMeta,
+#ReviewsContainer .reviews-container .reviewTop .reviewMeta .authorInfo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+#ReviewsContainer .reviews-container .reviewTop .reviewMeta .authorInfo {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.css-1gf6lcl0s {
+  display: inline-block;
+  line-height: 1;
+  font-size: 14px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(12, 170, 65) 80%, rgb(222, 224, 227) 80%) text;
+}
+.css-1gf6lcl1s {
+  display: inline-block;
+  line-height: 1;
+  font-size: 14px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(12, 170, 65) 80%, rgb(222, 224, 227) 80%) text;
+}
+.css-1gf6lcl2s {
+  display: inline-block;
+  line-height: 1;
+  font-size: 14px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(12, 170, 65) 40%, rgb(222, 224, 227) 0%) text;
+}
+.css-1gf6lcl3s {
+  display: inline-block;
+  line-height: 1;
+  font-size: 14px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(12, 170, 65) 60%, rgb(222, 224, 227) 0%) text;
+}
+.css-1gf6lcl4s {
+  display: inline-block;
+  line-height: 1;
+  font-size: 14px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(12, 170, 65) 80%, rgb(222, 224, 227) 0%) text;
+}
+.css-1gf6lcl5s {
+  display: inline-block;
+  line-height: 1;
+  font-size: 14px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(12, 170, 65) 100%, rgb(222, 224, 227) 0%) text;
+}
+#ReviewsContainer .reviews-container .reviewTop .reviewMeta .reviewerStatus {
+  color: #7f7f7f;
+  font-size: 14px;
+  margin-left: 12px;
+}
+td.showDesk,
+th.showDesk,
+.cell.showDesk {
+  display: table-cell !important;
+}
+#ReviewsContainer .reviews-container .reviewBody,
+#ReviewsContainer .reviews-container .reviewFooter {
+  width: 100%;
+}
+.padTopLg {
+  padding-top: 24px !important;
+}
+.noMarg {
+  margin: 0 !important;
+}
+.noPadBot,
+.noPadVert {
+  padding-bottom: 0 !important;
+}
+.margTop {
+  margin-top: 16px !important;
+}
+.top {
+  vertical-align: top !important;
+}
+#ReviewsContainer .reviews-container .reviewContent > .row {
+  margin-left: 72px;
+}
+p,
+.p {
+  margin: 16px 0;
+  padding: 0;
+  line-height: 22px;
+}

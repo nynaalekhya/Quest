@@ -1,0 +1,18 @@
+#JobDescriptionContainer .jobDesc * {
+  line-height: 1.4em;
+  color: #404040;
+}
+#JobDescriptionContainer ol,
+#JobDescriptionContainer ul {
+  padding-left: 32px;
+}
+#JobDescriptionContainer ol li,
+#JobDescriptionContainer ul li {
+  margin: 12px;
+  line-height: 22px;
+}
+h3,
+.h3 {
+  font-size: 18px;
+  line-height: 24px;
+}

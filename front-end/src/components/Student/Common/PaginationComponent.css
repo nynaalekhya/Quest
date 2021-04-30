@@ -1,0 +1,107 @@
+.pageNavBar {
+  display: table;
+  margin: 16px 0 0 0 !important;
+  vertical-align: middle;
+}
+body div.pagingControls {
+  font-size: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.pageNavBar .pagingControls {
+  width: auto;
+  text-align: right;
+  list-style-type: none;
+  white-space: nowrap;
+  max-width: 100%;
+  font-size: 0;
+}
+body div.pagingControls ul {
+  display: inline-block;
+}
+.pageNavBar .pagingControls ul {
+  height: 35px;
+  width: auto;
+  margin: 0 auto;
+  padding: 0 !important;
+  font-size: 0;
+}
+body div.pagingControls li.previous {
+  margin-right: 12px;
+}
+body div.pagingControls li.next {
+  margin-left: 12px;
+}
+body div.pagingControls ul li {
+  display: inline-block;
+  margin: 0 1px;
+  color: #7f7f7f;
+  margin: 0;
+  display: inline-block;
+}
+
+body div.pagingControls li > span,
+body div.pagingControls li > a {
+  display: inline-block;
+  min-width: 35px;
+  border: 1px solid #c2c2c2;
+  border-radius: 2px;
+  line-height: 34px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  height: 35px;
+}
+body div.pagingControls li .disabled,
+body div.pagingControls li .disabled:hover {
+  cursor: default;
+  background: #fff none;
+}
+body div.pagingControls li.prev a,
+body div.pagingControls li.prev span,
+body div.pagingControls a,
+body div.pagingControls span {
+  height: 35px;
+  line-height: 1em;
+}
+
+body div.pagingControls li.prev a i,
+body div.pagingControls li.prev span i,
+body div.pagingControls a i,
+body div.pagingControls span i {
+  margin-top: 9px;
+  background-image: url(https://www.glassdoor.com/app/static/img/core/sprites/sitewide.png?v=f18164g6g);
+  background-position: -20px -206px;
+  width: 10px;
+  height: 16px;
+}
+body div.pagingControls li.prev span.disabled i {
+  background-image: url(https://www.glassdoor.com/app/static/img/core/sprites/sitewide.png?v=f18164g6g);
+  background-position: -30px -206px;
+  width: 10px;
+  height: 16px;
+}
+body div.pagingControls li.page > span,
+body div.pagingControls li.page > a {
+  border-radius: 0;
+  border-right-width: 0;
+}
+body div.pagingControls li.active a {
+  font-weight: bold;
+  color: #fff;
+  background: #00a1df none;
+}
+body div.pagingControls {
+  margin-left: 12px;
+}
+body div.pagingControls span i,
+body div.pagingControls a i {
+  background-image: url(https://www.glassdoor.com/app/static/img/core/sprites/sitewide.png?v=f18164g6g);
+  background-position: -10px -206px;
+  width: 10px;
+  height: 16px;
+}

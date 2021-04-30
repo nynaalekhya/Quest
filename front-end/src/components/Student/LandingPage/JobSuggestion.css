@@ -1,0 +1,110 @@
+.flex-nowrap {
+  -webkit-flex-wrap: nowrap !important;
+  -ms-flex-wrap: nowrap !important;
+  flex-wrap: nowrap !important;
+}
+.css-poeuz4 {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  box-shadow: rgb(196, 199, 204) 0px 0px 2px;
+  height: 100%;
+}
+.css-1wh1oc8 {
+  cursor: pointer;
+  transition: box-shadow 240ms cubic-bezier(0.2, 0, 0.38, 0.9) 0s;
+}
+.pr-std {
+  padding-right: 16px !important;
+}
+.my-xxsm {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+}
+.css-x3wokz {
+  width: 32px;
+  height: 32px;
+}
+.css-16d1ee2 {
+  border-radius: 1px;
+  border: 1px solid rgb(222, 224, 227);
+}
+.small {
+  font-size: 12px;
+  line-height: 20px;
+}
+.css-b63kyi {
+  color: rgb(12, 170, 65);
+}
+.css-1xznj1f {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.css-forujw {
+  color: rgb(32, 38, 46);
+}
+.pl-xsm {
+  padding-left: 8px !important;
+}
+.d-inline-flex {
+  display: -webkit-inline-box !important;
+  display: -webkit-inline-flex !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+}
+.css-1wk59ve {
+  color: rgb(24, 97, 191);
+  font-size: 15px;
+  line-height: 1.6;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  padding: 0px;
+  z-index: 1;
+}
+.flex-wrap {
+  -webkit-flex-wrap: wrap !important;
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+}
+.css-1c3h18e {
+  flex: 1 0 auto;
+}
+.css-v91a6a {
+  flex: 1 0 100%;
+}
+.css-r6z5ec {
+  z-index: 1;
+}
+.ml-0 {
+  margin-left: 0 !important;
+}
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.mr-xxsm {
+  margin-right: 4px !important;
+}
+.css-120nkvx {
+  white-space: nowrap;
+  word-break: keep-all;
+}
+.justify-content-end {
+  -webkit-box-pack: end !important;
+  -webkit-justify-content: flex-end !important;
+  -ms-flex-pack: end !important;
+  justify-content: flex-end !important;
+}
+.align-self-end {
+  -webkit-align-self: flex-end !important;
+  -ms-flex-item-align: end !important;
+  align-self: flex-end !important;
+}
+.css-8jm638 {
+  flex-basis: 100%;
+}

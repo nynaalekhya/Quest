@@ -1,0 +1,87 @@
+.salary-survey-page .salary-survey,
+.salary-survey-page .salary-survey-header,
+.salary-survey-page .module > h1,
+.salary-survey-page article.module > p {
+  width: 66%;
+  margin: 0 auto;
+}
+.base-pay > div .minor {
+  position: absolute;
+  margin: 0;
+  top: 11px;
+  right: 24px;
+}
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='number'] {
+  padding: 0 12px 0;
+  line-height: 18px;
+  color: #404040;
+  font: 15px 'Lato', sans-serif;
+  background-color: #fff;
+  -webkit-box-shadow: inset 0 1px 0 0 #e7e7e7;
+  box-shadow: inset 0 1px 0 0 #e7e7e7;
+  border-radius: 2px;
+  border: 1px solid #c2c2c2;
+  outline: none;
+  height: 35px;
+  -webkit-transition: border-color 0.25s, -webkit-box-shadow 0.25s;
+  transition: border-color 0.25s, -webkit-box-shadow 0.25s;
+  -o-transition: box-shadow 0.25s, border-color 0.25s;
+  transition: box-shadow 0.25s, border-color 0.25s;
+  transition: box-shadow 0.25s, border-color 0.25s, -webkit-box-shadow 0.25s;
+  min-width: 238px;
+}
+.css-1sk6eli.css-1sk6eli {
+  height: 40px;
+}
+.fill input[type='text'],
+.fill input[type='number'],
+.fill textarea,
+.fill .select,
+.fill .select > div,
+.fill .select-inner,
+.fill .text-input,
+.fill .ajax-input {
+  width: 100%;
+  display: block;
+}
+.base-pay > div {
+  position: relative;
+}
+.stacked textarea,
+.stacked .select,
+.stacked label,
+.stacked .text-input,
+.stacked .ajax-input,
+.stacked .button-set {
+  display: block;
+  clear: both;
+  margin: 16px 0;
+}
+.fill .button-set > div > div {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+.bonusInputContainer {
+  width: 65%;
+}
+.gdGrid .mr-md-std {
+  margin-right: 16px !important;
+}
+.bonusInputContainer label {
+  width: 100%;
+}
+.bonusInputContainer .bonusNumberInput {
+  min-width: auto;
+  width: 40%;
+}
+.bonusInputContainer .bonusNumberInput input {
+  min-width: 100%;
+}
+#salaryForm {
+  flex-direction: row !important;
+}

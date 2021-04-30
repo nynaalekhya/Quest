@@ -1,0 +1,50 @@
+.lang-en #MainColSummary #jobTitle {
+  text-transform: capitalize;
+}
+
+.css-1530je5 {
+  margin: 4px;
+  position: relative;
+  width: calc(100% - 16px);
+}
+
+.css-150lexj > * {
+  padding: 4px;
+}
+
+body ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body ::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 0;
+}
+
+body ::-webkit-scrollbar-track {
+  background: #fff;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.gdGrid .mt-xxsm {
+  margin-top: 4px !important;
+}
+
+.module,
+.flex-nav > nav > ul,
+div.bucket {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 0 16px 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 1px 1px rgba(127, 127, 127, 0.3);
+  box-shadow: 0 1px 1px 1px rgba(127, 127, 127, 0.3);
+}
+
+.gdGrid .mr-md {
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}

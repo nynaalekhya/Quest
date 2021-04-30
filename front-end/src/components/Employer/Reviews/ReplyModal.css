@@ -1,0 +1,105 @@
+.css-1bwlao8 .modal_main {
+    position: relative;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 40px 32px 32px;
+    box-shadow: rgb(182, 187, 194) 0px 0px 2px 0px;
+    width: 600px;
+    max-height: 80%;
+    font-size: 15px;
+    line-height: 24px;
+    color: rgb(80, 88, 99);
+    display: flex;
+    flex-flow: column;
+    animation-name: showMain;
+    animation-duration: 400ms;
+    animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+}
+
+.css-1bwlao8 .modal_closeIcon, .css-1bwlao8 .modal_content, .css-1bwlao8 .fullContent, .css-1bwlao8 .modal_title, .css-1bwlao8 .actionBar {
+    animation-name: hideContents;
+    animation-duration: 400ms;
+    animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+}
+constructed stylesheet
+.css-1bwlao8 .modal_closeIcon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    cursor: pointer;
+}
+
+.css-1bwlao8 .topShadow {
+    margin-top: 5px;
+    margin-left: -32px;
+    width: calc(100% + 64px);
+    height: 3px;
+    box-shadow: rgba(105, 113, 122, 0.32) 0px 3px 3px 0px;
+    z-index: 1;
+}
+
+.gd-ui-modal .modal_main .fullContent {
+    padding: 2px;
+}
+.gd-ui-modal .modal_main .fullContent {
+    padding: 2px;
+}
+.gd-ui-modal .modal_main .fullContent {
+    padding: 2px;
+}
+
+.css-1bwlao8 .modal_closeIcon, .css-1bwlao8 .modal_content, .css-1bwlao8 .fullContent, .css-1bwlao8 .modal_title, .css-1bwlao8 .actionBar {
+    animation-name: hideContents;
+    animation-duration: 400ms;
+    animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+}
+
+.css-1bwlao8 .fullContent {
+    overflow: auto;
+    flex: 1 1 auto;
+}
+
+.css-1bwlao8 .modal_closeIcon, .css-1bwlao8 .modal_content, .css-1bwlao8 .fullContent, .css-1bwlao8 .modal_title, .css-1bwlao8 .actionBar {
+    animation-name: hideContents;
+    animation-duration: 400ms;
+    animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+}
+
+.css-1bwlao8 .modal_title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: rgb(32, 38, 46);
+    margin-bottom: 16px;
+}
+.gd-ui-modal .modal_title {
+    margin-bottom: 8px!important;
+}
+
+.css-1bwlao8 .modal_closeIcon, .css-1bwlao8 .modal_content, .css-1bwlao8 .fullContent, .css-1bwlao8 .modal_title, .css-1bwlao8 .actionBar {
+    animation-name: hideContents;
+    animation-duration: 400ms;
+    animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+}
+
+.css-1bwlao8 .modal_content {
+    max-height: 100vh;
+}
+
+label[for] {
+    cursor: pointer;
+}
+
+.hollywood textarea {
+    -webkit-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+    padding-bottom: 8px;
+    line-height: 22px;
+}
+.hollywood input, .hollywood textarea {
+    border-bottom-color: #c2c2c2 !important;
+}

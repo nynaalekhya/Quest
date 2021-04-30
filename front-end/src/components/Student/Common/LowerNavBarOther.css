@@ -1,0 +1,259 @@
+.HeaderStyles__navigationBackground {
+  background: #fff;
+}
+.HeaderStyles__bottomShadow {
+  -webkit-box-shadow: inset 0 -1px 0 0 #dee0e3;
+  box-shadow: inset 0 -1px 0 0 #dee0e3;
+}
+
+body.flex,
+body.flex * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+.HeaderStyles__navigationWrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.HeaderStyles__navigationScroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.HeaderStyles__navigationScroll {
+  overflow: visible;
+}
+
+.HeaderStyles__navigationWrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+.col {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+}
+
+.HeaderStyles__navigationItem {
+  cursor: pointer;
+  line-height: 1.6;
+  position: relative;
+}
+
+.mr-xl {
+  margin-right: 28px !important;
+}
+.HeaderStyles__primaryNavigation .HeaderStyles__navigationItem {
+  min-height: 56px;
+}
+
+.HeaderStyles__activeButton {
+  background-color: #dee0e3 !important;
+  color: #505863;
+}
+
+.css-1aftjfw {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 8px 16px;
+  display: inline-block;
+  line-height: 1.6;
+  user-select: none;
+  vertical-align: middle;
+  transition: color 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
+  font-family: Lato;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+}
+span.link.plain,
+a.plain {
+  color: #404040 !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+.css-1aftjfw,
+a.css-1aftjfw {
+  color: rgb(80, 88, 99);
+  background-color: transparent;
+  padding: 3px 16px;
+}
+.px-xxsm {
+  padding-right: 4px !important;
+  padding-left: 4px !important;
+}
+.HeaderStyles__primaryNavigation .gd-ui-button {
+  border-radius: 3px;
+  border: 1px solid transparent;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+  background-color: transparent;
+  padding: 4px 16px;
+}
+.css-1aftjfw:link,
+a.css-1aftjfw:link,
+.css-1aftjfw:visited,
+a.css-1aftjfw:visited {
+  color: rgb(80, 88, 99);
+}
+.HeaderStyles__primaryNavigation .gd-ui-button:link,
+.HeaderStyles__primaryNavigation .gd-ui-button:visited {
+  color: #505863;
+}
+.PopupStyles__popupContainer {
+  position: relative;
+}
+.PopupStyles__popupContent {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  z-index: -1;
+  -webkit-transition: opacity 0.22s ease-in-out, z-index 0.22s ease-in-out;
+  -o-transition: opacity 0.22s ease-in-out, z-index 0.22s ease-in-out;
+  transition: opacity 0.22s ease-in-out, z-index 0.22s ease-in-out;
+}
+.PopupStyles__popupContentLeft {
+  left: 0;
+}
+.PopupStyles__popupContentActive {
+  opacity: 1;
+  z-index: 9000;
+}
+
+.PopupStyles__popupBackground {
+  border-radius: 3px;
+  -webkit-box-shadow: 0 4px 5px rgba(133, 140, 148, 0.3), 0 0 2px 0 #c4c7cc;
+  box-shadow: 0 4px 5px rgba(133, 140, 148, 0.3), 0 0 2px 0 #c4c7cc;
+  background-color: #fff;
+}
+.HeaderStyles__list {
+  list-style: none;
+}
+ol li,
+ul li {
+  margin: 12px 0;
+  line-height: 22px;
+}
+.MenuItemStyles__menuItem {
+  white-space: nowrap;
+  cursor: pointer;
+}
+.MenuItemStyles__menuItemColor {
+  color: #505863;
+  font-weight: 400;
+  line-height: 24px;
+}
+.HeaderStyles__navigationItem.HeaderStyles__activeNavigationItem:after {
+  background: #0caa41;
+}

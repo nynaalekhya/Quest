@@ -1,0 +1,92 @@
+body.flex,
+body.flex * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+div.pageContentWrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  background: #eaeaea none;
+}
+#PageContent {
+  position: relative;
+  z-index: 10;
+  min-height: 100%;
+  width: 1024px;
+  margin: 0 auto;
+  background: #eaeaea none;
+}
+#PageContent {
+  width: 100%;
+  margin: 0;
+}
+#PageContent {
+  background: #fff;
+}
+div {
+  border-width: 0;
+}
+div,
+p,
+.p {
+  font-size: 15px;
+  color: #404040;
+}
+div {
+  line-height: 15px;
+}
+div,
+p,
+.p,
+span {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+#PageContentAboveFooter,
+#PageBodyContents {
+  position: relative;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+.mainCol {
+  color: #404040;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.flex-wide #PageContent {
+  width: 100%;
+  margin: 0;
+}
+.lockedHome #PageContent {
+  background: #fff;
+}
+.lockedHome header#TopNav {
+  -webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+  display: block;
+  font-size: 15px;
+  line-height: 24px;
+  z-index: 1000;
+}

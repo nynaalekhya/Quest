@@ -1,0 +1,70 @@
+.resumesPageStyle__resumesPage___10PUZ {
+  position: relative;
+  max-width: 1280px;
+  background: #fff;
+  vertical-align: top;
+  width: 100%;
+}
+#ResumePage {
+  display: flex !important;
+}
+.manageResumesStyle__resume___1cZaU {
+  border-bottom: 1px solid #dee0e3;
+}
+.gdGrid .mx-md-xsm {
+  margin-right: 8px !important;
+  margin-left: 8px !important;
+}
+.manageResumesStyle__resume___1cZaU .manageResumesStyle__resumeFile___2XwmV {
+  overflow: hidden;
+  width: 100%;
+}
+i.fileDOC,
+i.filePDF,
+i.fileTXT {
+  width: 34px;
+  height: 32px;
+  background: transparent
+    url(https://www.glassdoor.com/user-profile-app/static/img/core/sprites/filetypes@2x.png?v=07cbc1197)
+    no-repeat 0 0;
+  -webkit-background-size: 102px 32px;
+  background-size: 102px 32px;
+}
+i.filePDF {
+  background-position: -34px 0;
+}
+.gdGrid .ml-sm {
+  margin-left: 12px !important;
+}
+.manageResumesStyle__resume___1cZaU .manageResumesStyle__resumeFileName___1_0Wo {
+  overflow: hidden;
+}
+.manageResumesStyle__resume___1cZaU .manageResumesStyle__downloadLink___2nQj3 {
+  /* overflow-x: hidden; */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.manageResumesStyle__resume___1cZaU button.manageResumesStyle__deleteResumeBtn___1SIEs {
+  background: transparent;
+  color: #1861bf;
+  min-width: 0;
+}
+.manageResumesStyle__icon___vXT_M,
+.manageResumesStyle__loaderContainer___CTiL6 .SVGInline-svg {
+  height: 24px;
+  width: 24px;
+}
+.gdGrid .pb-md {
+  padding-bottom: 20px !important;
+}
+.manageResumesStyle__resume___1cZaU + .manageResumesStyle__resume___1cZaU {
+  padding-top: 20px;
+}
+.SectionHeaderStyles__sectionHeader___3b_50 .SectionHeaderStyles__addIcon___2YMd-:hover svg circle {
+  fill: rgb(24, 97, 191);
+}
+.css-uk8w9o[disabled] {
+  background-color: rgb(171, 204, 247);
+  cursor: not-allowed;
+}

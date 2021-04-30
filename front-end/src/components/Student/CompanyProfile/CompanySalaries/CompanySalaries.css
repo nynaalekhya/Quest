@@ -1,0 +1,85 @@
+.gdGrid .py {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+.gdGrid .col-md-6 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.common__SqLogoStyle__sqLogo {
+  background: #fff none;
+  border: 1px solid #e7e7e7;
+  display: inline-block;
+  line-height: 0;
+  padding: 2px;
+  position: relative;
+}
+.common__SqLogoStyle__sm img {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+.gdGrid .d-md-flex {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.gdGrid .offset-1 {
+  margin-left: 8.33333333%;
+}
+.common__RangeBarStyle__meanIndicator {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 6px solid #50c251;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+.common__RangeBarStyle__meanIndicator,
+.common__RangeBarStyle__meanValue {
+  -webkit-animation: common__RangeBarStyle__fadein 0.5s;
+  -o-animation: common__RangeBarStyle__fadein 0.5s;
+  animation: common__RangeBarStyle__fadein 0.5s;
+}
+.common__RangeBarStyle__rangeBar .common__RangeBarStyle__anonymousBar,
+.common__RangeBarStyle__rangeBar .common__RangeBarStyle__greenBar,
+.common__RangeBarStyle__rangeBar .common__RangeBarStyle__lockedText,
+.common__RangeBarStyle__rangeBar .common__RangeBarStyle__meanIndicator,
+.common__RangeBarStyle__rangeBar .common__RangeBarStyle__values {
+  line-height: 22px;
+}
+.common__RangeBarStyle__bar {
+  background-color: #50c251;
+  height: 4px;
+  width: 100%;
+}
+.common__RangeBarStyle__rangeBar .common__RangeBarStyle__values,
+.common__RangeBarStyle__rangeBar .common__RangeBarStyle__values span {
+  color: #404040;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.common__RangeBarStyle__rangeBar .common__RangeBarStyle__anonymousBar,
+.common__RangeBarStyle__rangeBar .common__RangeBarStyle__greenBar,
+.common__RangeBarStyle__rangeBar .common__RangeBarStyle__lockedText,
+.common__RangeBarStyle__rangeBar .common__RangeBarStyle__meanIndicator,
+.common__RangeBarStyle__rangeBar .common__RangeBarStyle__values {
+  line-height: 22px;
+}
+.common__flex__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.common__flex__justifySpaceBetween {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}

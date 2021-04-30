@@ -1,0 +1,238 @@
+div.pageContentWrapperStudent {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  background: #eaeaea none !important;
+}
+
+div.flex-aside > article,
+div.flex-aside > aside {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  display: table-cell;
+  min-height: 1px;
+  vertical-align: top;
+}
+div.flex-aside > article {
+  width: 692px;
+  width: calc(100% - (300px + 16px + 16px));
+  max-width: 692px;
+  max-width: calc(100% - (300px + 16px + 16px));
+}
+.padVertLg {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+}
+.padHorzLg {
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+.module .module,
+.flex-nav > nav > ul .module,
+div.bucket .module,
+.module .flex-nav > nav > ul,
+.flex-nav > nav > ul .flex-nav > nav > ul,
+div.bucket .flex-nav > nav > ul,
+.module div.bucket,
+.flex-nav > nav > ul div.bucket,
+div.bucket div.bucket {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+.lined {
+  border-bottom: 1px solid #c2c2c2;
+  padding-bottom: 12px;
+}
+.module header,
+.flex-nav > nav > ul header,
+div.bucket header {
+  display: table;
+  width: 100%;
+  margin: 16px 0;
+}
+.module header:first-child,
+.flex-nav > nav > ul header:first-child,
+div.bucket header:first-child {
+  margin-top: 0;
+}
+#InterviewQuestionList header {
+  margin-bottom: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #0d0d0d;
+  margin: 16px 0;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  -moz-font-variant-ligatures: no-common-ligatures;
+  font-variant-ligatures: no-common-ligatures;
+  -moz-font-feature-settings: 'liga' 0, 'clig' 0;
+  -webkit-font-feature-settings: 'liga' 0, 'clig' 0;
+  font-feature-settings: 'liga' 0, 'clig' 0;
+  font-weight: 400;
+}
+.interviewQuestionWrapper {
+  border-bottom: 1px solid #c2c2c2;
+  padding: 16px 0;
+}
+table.tbl tr,
+.row {
+  display: table-row !important;
+  float: none !important;
+}
+span.sqLogo img.lazy {
+  background-color: #f1f2f2;
+}
+span.sqLogo.smSqLogo span,
+span.sqLogo.smSqLogo img {
+  width: 50px;
+  height: 50px;
+}
+.margBotSm {
+  margin-bottom: 12px !important;
+}
+.interviewQuestion h3 {
+  float: left;
+  width: 500px;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+#InterviewsSearchResults .interviewQuestion h3 .authorInfo {
+  color: #7f7f7f;
+}
+#InterviewsSearchResults .interviewQuestion h3 .authorInfo a {
+  color: #7f7f7f;
+}
+.margTopSm {
+  margin-top: 12px !important;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+th,
+td {
+  text-align: left;
+}
+.alignRt {
+  text-align: right !important;
+}
+.minor {
+  font-size: 14px !important;
+  font-size: 0.93333333rem !important;
+  line-height: normal;
+  color: #7f7f7f;
+}
+.noWrap {
+  white-space: nowrap;
+}
+td p,
+th p {
+  text-align: left;
+  padding: 0;
+}
+.interviewQuestion .question .questionText {
+  margin: 0;
+}
+.margTop {
+  margin-top: 16px !important;
+}
+a.hiddenLink,
+a.hiddenLink:hover,
+a.hiddenLink:active {
+  text-decoration: none !important;
+  color: #404040;
+}
+a.mmLink {
+  color: #1861bf !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+.margLtSm {
+  margin-left: 12px !important;
+}
+#InterviewsSearchResults i.caret-blue {
+  background-image: url(https://www.glassdoor.com/app/static/img/core/sprites/sitewide.png?v=f18164g6g);
+  background-position: -201px -171px;
+  width: 12px;
+  height: 8px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.rotate180 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.borderTop {
+  border-top: 1px solid #c2c2c2;
+}
+.margTopLg {
+  margin-top: 24px !important;
+}
+.padTopSm {
+  padding-top: 12px !important;
+}
+.noMargTop,
+.noMargVert {
+  margin-top: 0 !important;
+}
+.noMargBot,
+.noMargVert {
+  margin-bottom: 0 !important;
+}
+.borderBot {
+  border-bottom: 1px solid #c2c2c2;
+}
+.padVert {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+#InterviewsSearchResults .userResponses .responseText:before {
+  content: '\21b3';
+  color: #c2c2c2;
+  display: table-cell;
+  font-size: 18px;
+  margin: 0 12px 0 0;
+  position: relative;
+  top: 19px;
+  width: 24px;
+}
+
+#interview {
+  display: table-row !important;
+}
+.rotate180 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}

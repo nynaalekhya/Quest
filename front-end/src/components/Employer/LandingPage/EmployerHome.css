@@ -1,0 +1,26 @@
+div.pageContentWrapper {
+  overflow: visible !important;
+  background: #fff none !important;
+}
+
+.css-1tgr9d {
+  display: block;
+}
+
+.applicationStyle__profileApplication___Jyu4n {
+  background: #fff none;
+  margin: 0 auto 16px;
+  min-height: 580px;
+  max-width: 1280px;
+  width: 100%;
+}
+.flex-column {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -webkit-flex-direction: column !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+#employerHome {
+  background: #eaeaea none !important;
+}

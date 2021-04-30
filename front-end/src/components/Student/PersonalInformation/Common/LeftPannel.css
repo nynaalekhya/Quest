@@ -1,0 +1,80 @@
+.css-tb9ljb .fullContent {
+  overflow: auto;
+  flex: 1 1 auto;
+}
+._cropmodal__minor___3e2MH {
+  font-size: 14px;
+  line-height: normal;
+  color: #7f7f7f;
+}
+._cropmodal__flexGrid___34tZB {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+._cropmodal__textAlignCenter___2qOZu {
+  text-align: center;
+}
+.gdGrid .m-auto {
+  margin: auto !important;
+}
+._cropmodal__imagePlaceHolder___3oxLX {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #ccc;
+}
+._cropmodal__cancelButton___3efpJ {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+.gdGrid .mt-sm {
+  margin-top: 12px !important;
+}
+.profilePhotoStyle__profilePhoto___CTVQw .profilePhotoStyle__editableContainer___3auRr {
+  position: relative;
+  border-radius: 50%;
+  background: #fff;
+  overflow: hidden;
+  width: 53px;
+  height: 53px;
+}
+.profilePhotoStyle__profilePhoto___CTVQw .profilePhotoStyle__editableContainer___3auRr img {
+  width: inherit;
+  height: inherit;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+.profilePhotoStyle__profilePhoto___CTVQw .profilePhotoStyle__editableContainer___3auRr div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  opacity: 0.8;
+  border-radius: 50%;
+}
+.icon-camera {
+  background-image: url(/user-profile-app/static/img/sprites/up-icons.png?v=906988gay);
+  background-position: -245px -130px;
+  width: 28px;
+  height: 21px;
+}
+.profilePhotoStyle__profilePhoto___CTVQw .profilePhotoStyle__editableContainer___3auRr div i {
+  position: absolute;
+  top: calc(50% - 10.5px);
+  left: calc(50% - 14px);
+}

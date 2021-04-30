@@ -1,0 +1,550 @@
+div.pageContentWrapperStudent {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  background: #eaeaea none;
+}
+#PageContent {
+  position: relative;
+  z-index: 10;
+  min-height: 100%;
+  width: 1024px;
+  margin: 0 auto;
+  background: #eaeaea none;
+}
+div,
+p,
+.p {
+  font-size: 15px;
+  color: #404040;
+}
+div {
+  line-height: 15px;
+}
+div.flex-aside {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table;
+  width: 1024px;
+  max-width: 1024px;
+  margin: 16px 0 16px;
+  padding: 0 16px;
+  vertical-align: top;
+}
+div.flex-aside > article,
+div.flex-aside > aside {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  display: table-cell;
+  min-height: 1px;
+  vertical-align: top;
+}
+div.flex-aside > article {
+  width: 692px;
+  width: calc(100% - (300px + 16px + 16px));
+  max-width: 692px;
+  max-width: calc(100% - (300px + 16px + 16px));
+}
+div.flex-aside > article > :first-child,
+div.flex-aside > aside > :first-child {
+  margin-top: 0;
+}
+div.flex-aside > article > :last-child,
+div.flex-aside > aside > :last-child {
+  margin-bottom: 0;
+}
+.gdGrid .px-lg-0 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.gdGrid .px {
+  padding-right: 16px !important;
+  padding-left: 16px !important;
+}
+.companySearchHierarchies h1,
+.companySearchHierarchies .ei-contributions-count-wrap .subtle,
+.companySearchHierarchies .subsidiary-of,
+.companySearchHierarchies .subsidiary-companies-count {
+  color: #505863;
+}
+.companySearchHierarchies h1 {
+  font-size: 20px;
+}
+.gdGrid .py-sm {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+.gdGrid .pt-lg-std {
+  padding-top: 16px !important;
+}
+.strong,
+strong,
+b {
+  font-weight: bold;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.gdGrid .pb-lg-xxl {
+  padding-bottom: 32px !important;
+}
+.module,
+.flex-nav > nav > ul,
+div.bucket {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 0 16px 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 1px 1px rgba(127, 127, 127, 0.3);
+  box-shadow: 0 1px 1px 1px rgba(127, 127, 127, 0.3);
+}
+.companySearchHierarchies .module {
+  margin-bottom: 16px;
+}
+.module > :first-child,
+.flex-nav > nav > ul > :first-child,
+div.bucket > :first-child {
+  margin-top: 0;
+}
+.module > :last-child,
+.flex-nav > nav > ul > :last-child,
+div.bucket > :last-child {
+  margin-bottom: 0 !important;
+}
+.gdGrid .col-lg-7 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 58.33333333%;
+  -ms-flex: 0 0 58.33333333%;
+  flex: 0 0 58.33333333%;
+  max-width: 58.33333333%;
+}
+.gdGrid .col-3 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 25%;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.gdGrid [class*='col-'] {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.companySearchHierarchies .logo-and-ratings-wrap,
+.companySearchHierarchies .ei-ratings-wrap,
+.companySearchHierarchies .ei-contributions-count-wrap,
+.companySearchHierarchies .subsidiary-logo-rating-wrap,
+.companySearchHierarchies .subsidiary-title-wrap {
+  text-align: center;
+}
+a.sqLogoLink,
+a.sqLogoLink:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+.tighten,
+span.gdBars,
+span.gdStars {
+  font-size: 0;
+  line-height: 0;
+}
+span.sqLogo,
+span.ceoFrame {
+  position: relative;
+  display: inline-block;
+  padding: 2px;
+  background: white none;
+  border: 1px solid #dedede;
+  line-height: 0;
+}
+span.sqLogo,
+span.sqLogo *,
+span.ceoFrame,
+span.ceoFrame * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.companySearchHierarchies span.sqLogo {
+  padding: 0;
+}
+span.sqLogo.medSqLogo span,
+span.sqLogo.medSqLogo img {
+  width: 70px;
+  height: 70px;
+}
+
+.gdGrid .col-9 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 75%;
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+.gdGrid .pr-0 {
+  padding-right: 0 !important;
+}
+h2,
+.h2 {
+  font-size: 20px;
+  line-height: 27px;
+}
+.companySearchHierarchies h2,
+.companySearchHierarchies h2 a,
+.companySearchHierarchies .ei-contributions-count-wrap .num {
+  font-weight: bold;
+  color: #20262e;
+}
+.companySearchHierarchies h2 {
+  line-height: 32px;
+}
+.companySearchHierarchies .bigRating {
+  font-size: 15px;
+  vertical-align: middle;
+}
+span.gdStars {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: baseline;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+.companySearchHierarchies span.gdStars {
+  vertical-align: middle;
+}
+i {
+  display: inline-block;
+  vertical-align: middle;
+}
+span.gdStars > i {
+  position: relative;
+  background-color: #f1f2f2;
+  height: 14px;
+  width: 14px;
+  margin-right: 2px;
+  vertical-align: baseline;
+  border-radius: 2px;
+  overflow: hidden;
+}
+span.gdStars > i:last-child {
+  margin-right: 0;
+}
+span.gdStars > i > i {
+  background-color: #0caa41;
+  border-radius: 2px 0 0 2px;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  left: 0;
+}
+.companySearchHierarchies span.gdStars > i,
+.companySearchHierarchies span.gdStars > i > i {
+  background-color: #fff;
+  width: 16px;
+  height: 16px;
+}
+span.gdStars > i i.star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -5px;
+  overflow: hidden;
+  background-image: url(https://www.glassdoor.com/app/static/img/core/sprites/sitewide.png?v=f18164g6g);
+  background-position: -98px -192px;
+  width: 10px;
+  height: 9px;
+  background-color: transparent;
+}
+.companySearchHierarchies span.gdStars > i i.star {
+  background-position: -193px -77px;
+  -webkit-background-size: 210px 205px;
+  background-size: 210px 205px;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+.companySearchHierarchies span.gdStars > i,
+.companySearchHierarchies span.gdStars > i > i {
+  background-color: #fff;
+  width: 16px;
+  height: 16px;
+}
+i span {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.margRtSm {
+  margin-right: 12px !important;
+}
+.companySearchHierarchies .web-and-address-wrap,
+.companySearchHierarchies .web-and-address-wrap a {
+  color: #858c94;
+}
+p,
+.p {
+  margin: 16px 0;
+  padding: 0;
+  line-height: 22px;
+}
+.gdGrid .mb-0 {
+  margin-bottom: 0 !important;
+}
+.gdGrid .mt-xxsm {
+  margin-top: 4px !important;
+}
+
+div,
+p,
+.p,
+span {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.gdGrid .col-lg-5 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 41.66666667%;
+  -ms-flex: 0 0 41.66666667%;
+  flex: 0 0 41.66666667%;
+  max-width: 41.66666667%;
+}
+.gdGrid .pl-lg-0 {
+  padding-left: 0 !important;
+}
+.cell,
+table.tbl td,
+table.tbl th {
+  display: table-cell;
+  float: none !important;
+  vertical-align: top;
+}
+.gdGrid .d-inline-block {
+  display: inline-block !important;
+}
+.companySearchHierarchies .ei-contributions-count-wrap .eiCell {
+  padding: 4px 0 12px 0;
+  display: inline-block;
+}
+.companySearchHierarchies .ei-contributions-count-wrap .num {
+  font-size: 18px;
+  line-height: 28px;
+  display: block;
+  margin: 0;
+  margin-bottom: 4px;
+}
+.subtle {
+  font-weight: normal;
+  color: #7f7f7f;
+}
+.gdGrid .mt {
+  margin-top: 16px !important;
+}
+span.gd-btn,
+a.gd-btn,
+button.gd-btn,
+input.gd-btn {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0 16px;
+  height: 40px;
+  text-align: center;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  vertical-align: middle;
+  outline: none;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+span.gd-btn-1,
+a.gd-btn-1,
+button.gd-btn-1,
+input.gd-btn-1 {
+  z-index: 0;
+  position: relative;
+  overflow: hidden;
+  background-color: #1861bf;
+  color: #fff;
+  -webkit-transition: background-color 200ms linear;
+  -o-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+.gdGrid .pr-md {
+  padding-right: 20px !important;
+}
+span.gd-btn > span,
+a.gd-btn > span,
+button.gd-btn > span,
+input.gd-btn > span {
+  display: inline-block;
+  padding: 0;
+  vertical-align: -2px;
+  line-height: 1em;
+  outline: none;
+}
+span.gd-btn-1 > span,
+a.gd-btn-1 > span,
+button.gd-btn-1 > span,
+input.gd-btn-1 > span {
+  color: #fff;
+}
+span.gd-btn > i.hlpr,
+a.gd-btn > i.hlpr,
+button.gd-btn > i.hlpr,
+input.gd-btn > i.hlpr {
+  width: 0;
+  height: 100%;
+}
+.noMargBot,
+.noMargVert {
+  margin-bottom: 0 !important;
+}
+
+.pageNavBar {
+  display: table;
+  margin: 16px 0 0 0 !important;
+  vertical-align: middle;
+}
+body div.pagingControls {
+  font-size: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.pageNavBar .pagingControls {
+  width: auto;
+  text-align: right;
+  list-style-type: none;
+  white-space: nowrap;
+  max-width: 100%;
+  font-size: 0;
+}
+body div.pagingControls ul {
+  display: inline-block;
+}
+.pageNavBar .pagingControls ul {
+  height: 35px;
+  width: auto;
+  margin: 0 auto;
+  padding: 0 !important;
+  font-size: 0;
+}
+.tbl.fill,
+table.tbl.fill,
+.formGrid.fill {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+ul {
+  list-style-type: disc;
+}
+body div.pagingControls li.previous {
+  margin-right: 12px;
+}
+body div.pagingControls li.next {
+  margin-left: 12px;
+}
+body div.pagingControls ul li {
+  display: inline-block;
+  margin: 0 1px;
+  color: #7f7f7f;
+  margin: 0;
+  display: inline-block;
+}
+
+body div.pagingControls li > span,
+body div.pagingControls li > a {
+  display: inline-block;
+  min-width: 35px;
+  border: 1px solid #c2c2c2;
+  border-radius: 2px;
+  line-height: 34px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  height: 35px;
+}
+body div.pagingControls li .disabled,
+body div.pagingControls li .disabled:hover {
+  cursor: default;
+  background: #fff none;
+}
+body div.pagingControls li.prev a,
+body div.pagingControls li.prev span,
+body div.pagingControls a,
+body div.pagingControls span {
+  height: 35px;
+  line-height: 1em;
+}
+
+body div.pagingControls li.prev a i,
+body div.pagingControls li.prev span i,
+body div.pagingControls a i,
+body div.pagingControls span i {
+  margin-top: 9px;
+  background-image: url(https://www.glassdoor.com/app/static/img/core/sprites/sitewide.png?v=f18164g6g);
+  background-position: -20px -206px;
+  width: 10px;
+  height: 16px;
+}
+body div.pagingControls li.prev span.disabled i {
+  background-image: url(https://www.glassdoor.com/app/static/img/core/sprites/sitewide.png?v=f18164g6g);
+  background-position: -30px -206px;
+  width: 10px;
+  height: 16px;
+}
+body div.pagingControls li.page > span,
+body div.pagingControls li.page > a {
+  border-radius: 0;
+  border-right-width: 0;
+}
+body div.pagingControls li.active a {
+  font-weight: bold;
+  color: #fff;
+  background: #00a1df none;
+}
+body div.pagingControls {
+  margin-left: 12px;
+}
+body div.pagingControls span i,
+body div.pagingControls a i {
+  background-image: url(https://www.glassdoor.com/app/static/img/core/sprites/sitewide.png?v=f18164g6g);
+  background-position: -10px -206px;
+  width: 10px;
+  height: 16px;
+}
+#companycard {
+  display: flex !important;
+}

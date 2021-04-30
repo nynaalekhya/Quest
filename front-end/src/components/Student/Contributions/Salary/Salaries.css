@@ -1,0 +1,66 @@
+.padRt {
+  padding-right: 16px !important;
+}
+.noPadLt,
+.noPadHorz {
+  padding-left: 0 !important;
+}
+.flex-grid .span-3-4 {
+  width: 75%;
+}
+.module,
+.flex-nav > nav > ul,
+div.bucket {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 0 16px 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 1px 1px rgba(127, 127, 127, 0.3);
+  box-shadow: 0 1px 1px 1px rgba(127, 127, 127, 0.3);
+}
+table.std {
+  border-radius: 2px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #d8d8d8;
+  border-width: 1px 0 0 1px;
+}
+table.std tr {
+  min-height: 35px;
+}
+.middle {
+  vertical-align: middle !important;
+}
+table.std td,
+table.std th {
+  padding: 10px;
+  border: 1px solid #d8d8d8;
+  border-width: 0 1px 1px 0;
+}
+table.std thead th {
+  font-weight: bold;
+  font-size: 14px;
+}
+.cell.chubby,
+table.tbl td.chubby,
+table.tbl th.chubby {
+  width: 99%;
+}
+table.std.fill thead td,
+table.std.fill thead th {
+  border-bottom-color: #b0b0b0;
+}
+table.std thead:first-child tr:first-child td:first-child,
+table.std thead:first-child tr:first-child th:first-child {
+  border-top-left-radius: 2px;
+}
+.flex-grid:after,
+.flex-grid .col:after,
+.cf:after,
+.ui-helper-clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}

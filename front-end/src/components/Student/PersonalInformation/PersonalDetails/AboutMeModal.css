@@ -1,0 +1,163 @@
+.css-q2nzru {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+  z-index: 8000;
+  animation-name: showModal;
+  animation-duration: 400ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+}
+
+.css-q2nzru .background-overlay {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background: rgb(32, 38, 46);
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+}
+
+.css-q2nzru .modal_closeIcon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  cursor: pointer;
+}
+.css-q2nzru .modal_closeIcon,
+.css-q2nzru .modal_content,
+.css-q2nzru .fullContent,
+.css-q2nzru .modal_title,
+.css-q2nzru .actionBar {
+  animation-name: hideContents;
+  animation-duration: 400ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+}
+.css-q2nzru .modal_closeIcon svg path {
+  fill: rgb(196, 199, 204);
+}
+.css-q2nzru .topShadow {
+  margin-top: 5px;
+}
+.css-q2nzru .fullContent {
+  overflow: auto;
+  flex: 1 1 auto;
+}
+.gd-ui-modal .modal_title {
+  margin-bottom: 8px !important;
+}
+.css-q2nzru .modal_main {
+  position: relative;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  padding: 40px 32px 32px;
+  box-shadow: rgb(182, 187, 194) 0px 0px 2px 0px;
+  width: 600px;
+  max-height: 80%;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgb(80, 88, 99);
+  display: flex;
+  flex-flow: column;
+  animation-name: showMain;
+  animation-duration: 400ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+}
+.aboutMeStyle__editable___1W1El {
+  padding: 12px 20px;
+}
+.aboutMeStyle__edit___czdVU,
+.aboutMeStyle__editable___1W1El {
+  position: relative;
+}
+.gdGrid .mr-lg {
+  margin-right: 24px !important;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea,
+keygen,
+select,
+button,
+isindex {
+  margin: 0;
+}
+.css-1q8a8vk {
+  box-sizing: border-box;
+  font-size: 15px;
+  border-radius: 3px;
+  border: 1px solid rgb(196, 199, 204);
+  padding: 0px 12px;
+  font-family: Lato, sans-serif;
+  color: rgb(80, 88, 99);
+  width: 100%;
+  line-height: normal;
+}
+.hollywood textarea {
+  -webkit-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  padding-bottom: 8px;
+  line-height: 22px;
+}
+.css-1q8a8vk.css-1q8a8vk {
+  padding-top: 12px;
+  height: 100%;
+}
+.css-q2nzru .actionBar {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  text-align: center;
+  flex-shrink: 0;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+.css-3ybntp {
+  border: 1px solid rgb(24, 97, 191);
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.6;
+  user-select: none;
+  vertical-align: middle;
+  transition: color 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
+  font-family: Lato;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+  color: rgb(24, 97, 191);
+  background-color: rgb(255, 255, 255);
+  padding: 7px 16px;
+}
+.gdGrid .d-md-inline-block {
+  display: inline-block !important;
+}
+.gdGrid .mr-md-sm {
+  margin-right: 12px !important;
+}
+.css-q2nzru .actionBar button {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.css-q2nzru .actionBar button:first-of-type {
+  margin-right: 0px;
+}
+.css-1q8a8vk:focus,
+.css-1q8a8vk:active {
+  box-shadow: rgb(140, 222, 255) 0px 0px 0px 2px;
+  border: 1px solid rgb(0, 161, 223);
+  outline: none;
+}

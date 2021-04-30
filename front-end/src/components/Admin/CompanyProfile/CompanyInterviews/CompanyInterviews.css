@@ -1,0 +1,256 @@
+.interviewsWithSgocFiltersv1 #EIFilter,
+.interviewsWithSgocFiltersv1 .interviewStats,
+.interviewsWithSgocFiltersv1 .popularJobTitlesInterviews {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.interviewsWithSgocFiltersv1 .popularJobTitlesInterviews,
+.interviewsWithSgocFiltersv1 .interviewStats {
+  margin-top: 16px;
+  padding-bottom: 16px;
+}
+.flexbox.fl-between {
+  -webkit-justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+div.interviewStats .chartWrapper.cell:first-of-type {
+  border-left: none;
+  padding-left: 0;
+}
+.tightTop {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+div.interviewStats .chartWrapper.cell h3 {
+  max-width: 230px;
+}
+.normal {
+  font-size: 15px;
+  font-size: 1rem;
+  line-height: 22px;
+  font-weight: normal;
+  color: black;
+}
+.subtle {
+  font-weight: normal;
+  color: #7f7f7f;
+}
+div.interviewStats .chartWrapper > .tbl > .row > .cell > .chart,
+div.interviewStats .chartWrapper > .tbl > .row > .cell:first-child {
+  height: 60px;
+  width: 60px;
+}
+div.interviewStats .chartWrapper > .tbl > .row > .cell > .chart {
+  margin-right: 12px;
+}
+.copyright,
+.heading {
+  max-width: 1024px;
+}
+div.interviewStats .dataTbl .row .cell {
+  line-height: 15px;
+  padding-bottom: 12px;
+  white-space: nowrap;
+}
+div.interviewStats .dataTbl .row .cell.heading {
+  line-height: 0;
+  padding-bottom: 13px;
+  padding-right: 12px;
+}
+div.interviewStats .dataTbl .sqLed {
+  vertical-align: top !important;
+}
+div.interviewStats .dataTbl .row .cell .sqLed,
+div.interviewStats .dataTbl .row .cell .minor {
+  line-height: 10px;
+}
+div.interviewStats .dataTbl .row .cell i.sqLed,
+div.interviewStats .dataTbl .row .cell .gdRatings.vertical.sm i {
+  height: 12px;
+  width: 12px;
+}
+div.interviewStats .dataTbl .pct {
+  color: #404040;
+  font-size: 12px;
+  line-height: 12px;
+  max-width: 130px;
+}
+div.interviewStats .dataTbl .row .cell .h3,
+div.interviewStats .dataTbl .row .cell label {
+  white-space: normal;
+}
+div.interviewStats .dataTbl .row .cell label {
+  margin-left: 8px;
+}
+div.interviewStats .chartWrapper.cell {
+  border-left: none;
+  padding-left: 0;
+}
+div.interviewStats .dataTbl {
+  padding-right: 0;
+}
+div.interviewStats .dataTbl .difficultyLabelWrapper,
+div.interviewStats .dataTbl .difficultyLabel {
+  color: #404040;
+}
+div.interviewStats .dataTbl .row:first-child .cell {
+  padding-bottom: 0;
+}
+div.interviewStats .difficultyLabel {
+  font-size: 40px;
+  line-height: 1;
+}
+div.interviewStats .dataTbl h3 {
+  display: none;
+}
+
+span.gdBars.vertical .row {
+  display: block !important;
+  line-height: 0;
+  padding-bottom: 4px;
+}
+span.gdBars.vertical .row:first-child,
+span.gdBars.vertical .row:last-child {
+  margin-right: 0;
+}
+span.gdBars > i,
+span.gdBars .row > i {
+  position: relative;
+  background-color: #f1f2f2;
+  margin-right: 2px;
+  vertical-align: baseline;
+}
+span.gdBars.vertical .row > i {
+  display: inline-block;
+  margin: 0 12px 0 0;
+  vertical-align: middle;
+}
+span.gdBars.vertical .row .label {
+  display: inline-block;
+  font-weight: normal;
+  padding-bottom: 0;
+}
+span.gdBars > i > i,
+span.gdBars .row > i > i {
+  background-color: #0caa41;
+  position: absolute;
+  left: 0;
+}
+span.gdBars.vertical .row > i > i {
+  bottom: 0;
+}
+div.interviewStats .ratingBar {
+  padding-left: 12px;
+  text-align: left;
+}
+
+.empReviews ul,
+.empReviews li,
+.empReview ul,
+.empReview li {
+  list-style-type: none;
+  position: relative;
+  margin: 0;
+}
+.tightLt {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+#EmployerInterviews .empReviews .empReview:first-child {
+  margin-top: 0;
+  padding-top: 0 !important;
+}
+.floatLt {
+  float: left;
+}
+.tightVert {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+.floatRt {
+  width: auto;
+  float: right;
+}
+.empReview .reviewHdr {
+  margin-top: 20px;
+}
+.empReview .sqLogoCell {
+  width: 72px;
+  min-width: 72px;
+}
+.margBotXs {
+  margin-bottom: 8px !important;
+}
+.margTopMd {
+  margin-top: 20px !important;
+}
+ol.undecorated li,
+ul.undecorated li {
+  margin-left: 0;
+  margin-top: 0;
+}
+#EIOverview .interviewQuestions > ul > li,
+#EIInterviewReviews .interviewQuestions > ul > li {
+  padding: 12px 0;
+}
+#EIOverview .interviewQuestions > ul > li:first-child,
+#EIInterviewReviews .interviewQuestions > ul > li:first-child {
+  border: none;
+  padding-top: 0;
+}
+#EIOverview .interviewQuestions > ul > li:last-child,
+#EIInterviewReviews .interviewQuestions > ul > li:last-child {
+  padding-bottom: 0;
+}
+#EIOverview .interviewQuestions a.questionResponse,
+#EIInterviewReviews .interviewQuestions a.questionResponse {
+  display: block;
+}
+#EIOverview .interviewQuestions a.questionResponse:before,
+#EIInterviewReviews .interviewQuestions a.questionResponse:before {
+  content: '\21b3';
+  color: #404040;
+  display: inline-block;
+  font-size: 18px;
+  margin: 0 12px 0 0;
+  position: relative;
+  top: 3px;
+}
+
+#EmployerInterviews i.caret-blue {
+  background-image: url(/app/static/img/core/sprites/sitewide.png?v=f18164g6g);
+  background-position: -201px -171px;
+  width: 12px;
+  height: 8px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.empReview .outlookEmpReview,
+.empReview .reviewComments {
+  margin-top: 20px;
+}
+
+.inlineBlock,
+.ib {
+  display: inline-block;
+}
+i.sqLed.yellow {
+  background-color: #f6b500;
+}
+a.gd-btn-3,
+button.gd-btn-3 {
+  z-index: 0;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  color: #404040;
+  -webkit-transition: background-color 200ms linear;
+  -o-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+  border: 1px solid #c2c2c2;
+}

@@ -1,0 +1,243 @@
+.flex-md-column {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -webkit-flex-direction: column !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+.profileTasksStyles__profileTasks___OYjMw {
+  width: 100%;
+}
+.profileTasksStyles__profileTasks___OYjMw
+  .profileTasksStyles__header___1Co9h
+  .profileTasksStyles__heading___n23yB {
+  color: #20262e;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+}
+.profileTasksStyles__profileTasks___OYjMw .profileTasksStyles__caption___37z52 {
+  line-height: 24px;
+}
+.gdGrid .d-sm-block {
+  display: block !important;
+}
+.profileTasksStyles__profileTasks___OYjMw .profileTasksStyles__list___1gFP1 {
+  display: grid;
+  grid-auto-rows: 175px;
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: -5px;
+  max-height: 190px;
+  overflow: hidden;
+  padding: 5px;
+  -webkit-transition: max-height 0.7s;
+  -o-transition: max-height 0.7s;
+  transition: max-height 0.7s;
+}
+.profileTasksStyles__list___1gFP1 {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 48%));
+}
+.profileTasksStyles__profileTasks___OYjMw .profileTasksStyles__entryContainer___3UuYl {
+  height: 220px;
+  max-width: 385px;
+  width: 35vw;
+}
+.profileTasksStyles__profileTasks___OYjMw .profileTasksStyles__entryContainer___3UuYl {
+  height: 100%;
+  width: 100%;
+}
+.justify-content-sm-center {
+  -webkit-box-pack: center !important;
+  -webkit-justify-content: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+.gdGrid .p-sm {
+  padding: 12px !important;
+}
+.profileTasksStyles__profileTasks___OYjMw
+  .profileTasksStyles__entryContainer___3UuYl
+  .profileTasksStyles__entry___2tf7Z {
+  background-color: #f5f6f7;
+  border-radius: 3px;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+.profileTasksStyles__profileTasks___OYjMw
+  .profileTasksStyles__entryContainer___3UuYl
+  .profileTasksStyles__entry___2tf7Z {
+  -webkit-box-shadow: rgba(133, 140, 148, 0.3) 0 1px 3px 0, #ccc 0 0 2px;
+  box-shadow: 0 1px 3px 0 rgba(133, 140, 148, 0.3), 0 0 2px #ccc;
+  height: 100%;
+  min-width: 0;
+  position: relative;
+  width: 100%;
+}
+.gdGrid .mb-xsm {
+  margin-bottom: 8px !important;
+}
+.profileTasksStyles__profileTasks___OYjMw
+  .profileTasksStyles__entryContainer___3UuYl
+  .profileTasksStyles__entry___2tf7Z
+  .profileTasksStyles__icon___1nvMg {
+  color: #1861bf;
+}
+.profileTasksStyles__profileTasks___OYjMw
+  .profileTasksStyles__entryContainer___3UuYl
+  .profileTasksStyles__entry___2tf7Z
+  .profileTasksStyles__icon___1nvMg {
+  color: #858c94;
+  height: 24px;
+}
+.profileTasksStyles__profileTasks___OYjMw
+  .profileTasksStyles__entryContainer___3UuYl
+  .profileTasksStyles__entry___2tf7Z
+  .profileTasksStyles__heading___n23yB {
+  color: #1861bf;
+  white-space: normal;
+}
+.profileTasksStyles__profileTasks___OYjMw
+  .profileTasksStyles__entryContainer___3UuYl
+  .profileTasksStyles__entry___2tf7Z
+  .profileTasksStyles__heading___n23yB {
+  color: inherit;
+  font-weight: 700;
+}
+.profileTasksStyles__profileTasks___OYjMw
+  .profileTasksStyles__entryContainer___3UuYl
+  .profileTasksStyles__entry___2tf7Z
+  .profileTasksStyles__caption___37z52 {
+  color: #858c94;
+  white-space: normal;
+}
+.profileTasksStyles__profileTasks___OYjMw
+  .profileTasksStyles__entryContainer___3UuYl
+  .profileTasksStyles__entry___2tf7Z
+  .profileTasksStyles__caption___37z52 {
+  color: inherit;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  font-weight: 400;
+}
+.SectionStyles__section___3ZANh {
+  margin-bottom: 40px;
+  position: relative;
+}
+.gdGrid .mt-md-0 {
+  margin-top: 0 !important;
+}
+.gdGrid .px-md-0 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.gdGrid .col {
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.SectionHeaderStyles__sectionHeader___3b_50
+  .SectionHeaderStyles__nameGroup___2N2pK
+  .SectionHeaderStyles__name___saD9S {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: normal;
+}
+#PersonalDetails {
+  display: flex !important;
+}
+.gdGrid .col-lg-4 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 33.33333333%;
+  -ms-flex: 0 0 33.33333333%;
+  flex: 0 0 33.33333333%;
+  max-width: 33.33333333%;
+}
+section div,
+.lockedHome section p,
+.lockedHome section .p {
+  color: #505863;
+}
+.profileInfoStyle__profileInfo___2aFZe
+  .profileInfoStyle__profileInfoContainer___26tEl
+  .profileInfoStyle__profileInfoMain___Y8O5Z
+  .profileInfoStyle__addBtn___12Pvw
+  .profileInfoStyle__addCopy___rCroE {
+  color: #1861bf;
+  font-weight: 400;
+}
+.SectionCTA__sectionCTA___JfBzg .SectionCTA__label___2WAID {
+  color: #495867;
+  text-decoration: none;
+  line-height: 24px;
+}
+.SectionHeaderStyles__sectionHeader___3b_50 .SectionHeaderStyles__addIcon___2YMd-,
+.SectionHeaderStyles__sectionHeader___3b_50 .SectionHeaderStyles__editIcon___LCEeu {
+  color: #858c94;
+  cursor: pointer;
+  height: 24px;
+  min-width: 0;
+  overflow: visible;
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 24px;
+}
+.skillsStyle__skillList___3qVgi {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 12px 16px 24px 16px;
+}
+.skillsStyle__capitalize___1tkT7 {
+  text-transform: capitalize;
+}
+.css-zomrfc {
+  display: inline-flex;
+  font-size: 15px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  max-width: 288px;
+  min-width: 80px;
+}
+.skillsStyle__skillList___3qVgi div {
+  margin-bottom: 8px;
+}
+.css-1p0oo7a {
+  background-color: rgb(182, 232, 252);
+  border-radius: 16px 0px 0px 16px;
+  color: rgb(1, 103, 143);
+  display: inline-block;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  line-height: 32px;
+  overflow: hidden;
+  padding: 0px 4px 0px 16px;
+  text-align: center;
+  text-overflow: ellipsis;
+  user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.css-1dpqmrj {
+  background-color: rgb(182, 232, 252);
+  border: none;
+  border-radius: 0px 16px 16px 0px;
+  padding: 0px 10px 0px 8px;
+}

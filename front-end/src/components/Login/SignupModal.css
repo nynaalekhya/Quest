@@ -1,0 +1,328 @@
+.css-mgpgck {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+  z-index: 8000;
+  animation-name: showModal;
+  animation-duration: 400ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+}
+.css-mgpgck .background-overlay {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background: rgb(32, 38, 46);
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+}
+.css-mgpgck .modal_main {
+  position: relative;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  padding: 40px 32px 32px;
+  box-shadow: rgb(182, 187, 194) 0px 0px 2px 0px;
+  width: 570px;
+  max-height: 80%;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgb(80, 88, 99);
+  display: flex;
+  flex-flow: column;
+  animation-name: showMain;
+  animation-duration: 400ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+}
+.css-mgpgck .modal_closeIcon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  cursor: pointer;
+}
+.css-mgpgck .modal_closeIcon,
+.css-mgpgck .modal_content,
+.css-mgpgck .fullContent,
+.css-mgpgck .modal_title,
+.css-mgpgck .actionBar {
+  animation-name: hideContents;
+  animation-duration: 400ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+}
+.css-mgpgck .topShadow {
+  margin-top: 5px;
+  margin-left: -32px;
+  width: calc(100% + 64px);
+  height: 3px;
+  box-shadow: rgba(105, 113, 122, 0.32) 0px 3px 3px 0px;
+  z-index: 1;
+}
+.css-mgpgck .bottomShadow {
+  margin-left: -32px;
+  width: calc(100% + 64px);
+  height: 3px;
+}
+.actionBarMt0 .actionBar {
+  margin-top: 0 !important;
+}
+.css-mgpgck .actionBar {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  text-align: center;
+  flex-shrink: 0;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+.mb-neg16 {
+  margin-bottom: -16px;
+}
+
+.gdGrid .mt-lg {
+  margin-top: 24px !important;
+}
+.gdUserLogin .w-100pct {
+  width: 100%;
+}
+.gdGrid .py-xsm {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+.gdUserLogin .description {
+  font-size: 15px;
+  line-height: 22px;
+}
+.link,
+a.link,
+.link a {
+  color: #1861bf !important;
+}
+.gdGrid .ml-xxsm {
+  margin-left: 4px !important;
+}
+.css-mgpgck .actionBar a {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgb(24, 97, 191);
+  margin-top: 8px;
+  margin-bottom: 6px;
+  flex-basis: 100%;
+}
+.css-mgpgck .fullContent {
+  overflow: auto;
+  flex: 1 1 auto;
+}
+.modal_title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: rgb(32, 38, 46);
+  margin-bottom: 16px;
+}
+.gdUserLogin .modal_content {
+  overflow-x: hidden;
+}
+.modal_content {
+  max-height: 100vh;
+}
+.flex-sm-row {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+  -webkit-flex-direction: row !important;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+}
+.flex-sm-wrap {
+  -webkit-flex-wrap: wrap !important;
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+}
+.gdGrid .mt-xsm {
+  margin-top: 8px !important;
+}
+.gdGrid .mt-sm-md {
+  margin-top: 20px !important;
+}
+.gdGrid .order-last {
+  -webkit-box-ordinal-group: 14;
+  -webkit-order: 13;
+  -ms-flex-order: 13;
+  order: 13;
+}
+.gdGrid .col-sm-6 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 46%;
+  max-width: 50%;
+}
+.gdGrid .order-sm-first {
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+}
+.gdGrid .col-sm-6 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 46%;
+  max-width: 50%;
+}
+.gdGrid .p-0 {
+  padding: 0 !important;
+}
+.gdGrid .pr-sm-std {
+  padding-right: 16px !important;
+}
+table.tbl tr,
+.row {
+  display: table-row;
+  float: none !important;
+}
+.gdGrid .mx-0 {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.gdGrid .mb-std {
+  margin-bottom: 16px !important;
+}
+.gdGrid .pt-xxsm {
+  padding-top: 4px !important;
+}
+.checkmarkIconGreen path {
+  fill: #0caa41;
+}
+.gdGrid .col-1,
+.gdGrid .col-2,
+.gdGrid .col-3,
+.gdGrid .col-4,
+.gdGrid .col-5,
+.gdGrid .col-6,
+.gdGrid .col-7,
+.gdGrid .col-8,
+.gdGrid .col-9,
+.gdGrid .col-10,
+.gdGrid .col-11,
+.gdGrid .col-12,
+.gdGrid .col,
+.gdGrid .col-auto,
+.gdGrid .col-sm-1,
+.gdGrid .col-sm-2,
+.gdGrid .col-sm-3,
+.gdGrid .col-sm-4,
+.gdGrid .col-sm-5,
+.gdGrid .col-sm-6,
+.gdGrid .col-sm-7,
+.gdGrid .col-sm-8,
+.gdGrid .col-sm-9,
+.gdGrid .col-sm-10,
+.gdGrid .col-sm-11,
+.gdGrid .col-sm-12,
+.gdGrid .col-sm,
+.gdGrid .col-sm-auto,
+.gdGrid .col-md-1,
+.gdGrid .col-md-2,
+.gdGrid .col-md-3,
+.gdGrid .col-md-4,
+.gdGrid .col-md-5,
+.gdGrid .col-md-6,
+.gdGrid .col-md-7,
+.gdGrid .col-md-8,
+.gdGrid .col-md-9,
+.gdGrid .col-md-10,
+.gdGrid .col-md-11,
+.gdGrid .col-md-12,
+.gdGrid .col-md,
+.gdGrid .col-md-auto,
+.gdGrid .col-lg-1,
+.gdGrid .col-lg-2,
+.gdGrid .col-lg-3,
+.gdGrid .col-lg-4,
+.gdGrid .col-lg-5,
+.gdGrid .col-lg-6,
+.gdGrid .col-lg-7,
+.gdGrid .col-lg-8,
+.gdGrid .col-lg-9,
+.gdGrid .col-lg-10,
+.gdGrid .col-lg-11,
+.gdGrid .col-lg-12,
+.gdGrid .col-lg,
+.gdGrid .col-lg-auto,
+.gdGrid .col-xl-1,
+.gdGrid .col-xl-2,
+.gdGrid .col-xl-3,
+.gdGrid .col-xl-4,
+.gdGrid .col-xl-5,
+.gdGrid .col-xl-6,
+.gdGrid .col-xl-7,
+.gdGrid .col-xl-8,
+.gdGrid .col-xl-9,
+.gdGrid .col-xl-10,
+.gdGrid .col-xl-11,
+.gdGrid .col-xl-12,
+.gdGrid .col-xl,
+.gdGrid .col-xl-auto {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+}
+
+.gdGrid .col {
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.gdGrid .pl-std {
+  padding-left: 16px !important;
+}
+.valueProps .msg {
+  font-size: 16px;
+  line-height: 24px;
+}
+.gdGrid .pr-xxsm {
+  padding-right: 4px !important;
+}
+.gdGrid .pl-sm-std {
+  padding-left: 16px !important;
+}
+/* label Handler */
+.css-w6c9ax {
+  padding-bottom: 4px;
+  transform-origin: 0px 50%;
+  transition: transform 0.2s ease 0s;
+  position: relative;
+  z-index: 1;
+  color: rgb(133, 140, 148);
+  font-size: 16px;
+  top: 37px;
+  margin-top: -23px;
+  left: 12px;
+  transform: scale(0.75) translateY(-14px);
+}
+.css-mgpgck .modal_main ::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.signup-success {
+  color: rgb(57 115 65) !important;
+}
+
+#signupmodal {
+  flex-direction: row !important;
+}

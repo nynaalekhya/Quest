@@ -1,0 +1,958 @@
+p,
+.p {
+  margin: 16px 0;
+  padding: 0;
+  line-height: 22px;
+}
+.gdGrid .mt-xl {
+  margin-top: 28px !important;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAICAQAAABn7dZ6AAAAcElEQVQI12NwOO9iyIAGXAwdzjM4Bzg+dJdEFnaXdHzoHABkOJY6ngzlhAmHcjqedCyFchznOq6ASTiucJwL15zG6rDfoR7Ecqh32J/GimSut6DjDYdwh3DHG96CaC5xVXV84vjEVZUBE7iauJogeACruxt3n9Pp9QAAAABJRU5ErkJggg==);
+  background-position: 96% 50%;
+  background-repeat: no-repeat;
+  background-color: #fff !important;
+  border-color: #7f7f7f !important;
+  border-radius: 2px;
+  color: #404040 !important;
+  font-size: 15px !important;
+  height: 40px;
+  padding: 8px 24px 8px 12px;
+  position: relative;
+}
+.css-qo68e2 {
+  font-size: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  border: 1px solid rgb(196, 199, 204);
+  padding: 0px 12px;
+  color: rgb(133, 140, 148);
+  position: relative;
+  user-select: none;
+}
+.css-qo68e2.css-qo68e2 {
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  color: rgb(80, 88, 99);
+}
+.css-1vf6lcl {
+  font-size: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  border: 1px solid rgb(196, 199, 204);
+  padding: 0px 12px;
+  color: rgb(133, 140, 148);
+  position: relative;
+  user-select: none;
+}
+.css-1vf6lcl:hover {
+  border-color: rgb(133, 140, 148);
+  color: rgb(80, 88, 99);
+}
+.css-1vf6lcl:focus,
+.css-1vf6lcl:active {
+  box-shadow: rgb(140, 222, 255) 0px 0px 0px 2px;
+  border: 1px solid rgb(0, 161, 223);
+  outline: none;
+  color: rgb(80, 88, 99);
+}
+.css-1vf6lcl.css-1vf6lcl {
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+}
+.css-qo68e2 div.selectedLabel {
+  margin-right: 30px;
+  line-height: 40px;
+}
+.css-qo68e2 div.selectedLabel,
+.css-qo68e2 span.dropdownOptionLabel {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.css-qo68e2 .arrowDown,
+.css-qo68e2 .arrowUp {
+  position: absolute;
+  right: 14px;
+  top: 0px;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.css-qo68e2 div.selectedLabel {
+  margin-right: 30px;
+  line-height: 40px;
+}
+.css-qo68e2 div.selectedLabel,
+.css-qo68e2 span.dropdownOptionLabel {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.css-1vf6lcl div.selectedLabel {
+  margin-right: 30px;
+  line-height: 40px;
+}
+.css-1vf6lcl div.selectedLabel,
+.css-1vf6lcl span.dropdownOptionLabel {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.css-1vf6lcl .arrowDown,
+.css-1vf6lcl .arrowUp {
+  position: absolute;
+  right: 14px;
+  top: 0px;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.css-1vf6lcl .arrowDown svg,
+.css-1vf6lcl .arrowUp svg {
+  height: 16px;
+  width: 16px;
+}
+.css-1vf6lcl .arrowUp svg {
+  transform: rotate(180deg);
+}
+.css-1vf6lcl .dropdownOptions {
+  position: absolute;
+  user-select: none;
+  top: calc(100% + 8px);
+  left: -1px;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid rgb(196, 199, 204);
+  min-width: 100%;
+  padding: 0px;
+  margin: 0px;
+  z-index: 999;
+  overflow: auto;
+  width: 0px;
+}
+.css-1vf6lcl .dropdownExpanded {
+  display: block;
+  animation-name: expandDropDown;
+  animation-duration: 150ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+  overflow: hidden;
+  max-height: 201.6px;
+  box-shadow: rgb(182, 187, 194) 0px 0px 2px 0px;
+}
+.css-1vf6lcl .dropDownOptionsContainer {
+  display: flex;
+}
+.css-1vf6lcl .dropdownOptions ul {
+  padding: 0px;
+  margin: 0px;
+  overflow: auto;
+  max-height: 200px;
+  width: 100%;
+}
+.PreferencesStyles__preferencesModule___1FDO2 li.dropdownOption {
+  margin: 0;
+  line-height: 22px;
+}
+.css-1vf6lcl .dropdownOptions li.dropdownOption {
+  list-style: none;
+  width: 100%;
+  cursor: pointer;
+  height: 40px;
+  line-height: normal;
+  min-width: 100%;
+}
+.css-1vf6lcl li.dropdownOption.checked {
+  font-weight: bold;
+}
+.css-1vf6lcl .checkmark {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-left: 13px;
+  margin-right: 13px;
+  height: 100%;
+  width: 15px;
+  visibility: hidden;
+}
+.css-1vf6lcl li.dropdownOption.checked .checkmark span {
+  visibility: visible;
+}
+.css-1vf6lcl li.dropdownOption.checked .checkmark span svg {
+  margin-top: 2px;
+  width: 36px;
+  height: 36px;
+}
+.css-1vf6lcl div.selectedLabel,
+.css-1vf6lcl span.dropdownOptionLabel {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.css-1vf6lcl span.dropdownOptionLabel {
+  display: inline-block;
+  width: calc(100% - 48px);
+  line-height: 1.6;
+  margin-top: 8px;
+  vertical-align: top;
+}
+.css-1vf6lcl .dropdownExpanded {
+  display: block;
+  animation-name: expandDropDown;
+  animation-duration: 150ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+  overflow: hidden;
+  max-height: 201.6px;
+  box-shadow: rgb(182, 187, 194) 0px 0px 2px 0px;
+}
+.css-1vf6lcl .dropdownCollapsed.animated {
+  border: none;
+  overflow: hidden;
+  max-height: 0px;
+  animation-name: collapseDropDown;
+  animation-duration: 150ms;
+  animation-timing-function: cubic-bezier(0.2, 0, 0.38, 0.9);
+}
+.css-qo68e2 .dropdownOptions {
+  position: absolute;
+  user-select: none;
+  top: calc(100% + 8px);
+  left: -1px;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid rgb(196, 199, 204);
+  min-width: 100%;
+  padding: 0px;
+  margin: 0px;
+  z-index: 999;
+  overflow: auto;
+  width: 0px;
+}
+.css-qo68e2 .dropdownCollapsed.animated {
+  border: none;
+  overflow: hidden;
+  max-height: 0px;
+  animation-name: collapseDropDown;
+  animation-duration: 150ms;
+  animation-timing-function: cubic-bezier(0.2, 0, 0.38, 0.9);
+}
+.css-qo68e2 .dropDownOptionsContainer {
+  display: flex;
+}
+.css-qo68e2 .dropdownOptions ul {
+  padding: 0px;
+  margin: 0px;
+  overflow: auto;
+  max-height: 200px;
+  width: 100%;
+}
+.css-qo68e2 .dropdownOptions {
+  position: absolute;
+  user-select: none;
+  top: calc(100% + 8px);
+  left: -1px;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid rgb(196, 199, 204);
+  min-width: 100%;
+  padding: 0px;
+  margin: 0px;
+  z-index: 999;
+  overflow: auto;
+  width: 0px;
+}
+.css-qo68e2 .dropdownExpanded {
+  display: block;
+  animation-name: expandDropDown;
+  animation-duration: 150ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+  overflow: hidden;
+  max-height: 201.6px;
+  box-shadow: rgb(182, 187, 194) 0px 0px 2px 0px;
+}
+.PreferencesStyles__preferencesModule___1FDO2 li.dropdownOption {
+  margin: 0;
+  line-height: 22px;
+}
+.css-qo68e2 .dropdownOptions li.dropdownOption {
+  list-style: none;
+  width: 100%;
+  cursor: pointer;
+  height: 40px;
+  line-height: normal;
+  min-width: 100%;
+}
+.css-qo68e2 .checkmark {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-left: 13px;
+  margin-right: 13px;
+  height: 100%;
+  width: 15px;
+  visibility: hidden;
+}
+.css-qo68e2 div.selectedLabel,
+.css-qo68e2 span.dropdownOptionLabel {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.css-qo68e2 span.dropdownOptionLabel {
+  display: inline-block;
+  width: calc(100% - 48px);
+  line-height: 1.6;
+  margin-top: 8px;
+  vertical-align: top;
+}
+.css-qo68e2 .dropdownOptions li.dropdownOption {
+  list-style: none;
+  width: 100%;
+  cursor: pointer;
+  height: 40px;
+  line-height: normal;
+  min-width: 100%;
+}
+.css-qo68e2 li.dropdownOption.checked {
+  font-weight: bold;
+}
+.css-qo68e2 li.dropdownOption.checked .checkmark span {
+  visibility: visible;
+}
+.css-qo68e2 li.dropdownOption.checked .checkmark span svg {
+  margin-top: 2px;
+  width: 36px;
+  height: 36px;
+}
+.idealJobStyle__chips___1iw1E {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 12px 16px 24px 16px;
+}
+.idealJobStyle__addEntryIcon___2IO95 {
+  color: #1861bf !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.css-1c2vj07 {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.6;
+  user-select: none;
+  vertical-align: middle;
+  transition: color 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
+  font-family: Lato;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+  color: rgb(80, 88, 99);
+  background-color: transparent;
+  padding: 7px 16px;
+}
+.css-1xjyj8j {
+  font-size: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  border: 1px solid rgb(196, 199, 204);
+  padding: 0px 12px;
+  color: rgb(133, 140, 148);
+  position: relative;
+  user-select: none;
+}
+.css-1xjyj8j:focus,
+.css-1xjyj8j:active {
+  box-shadow: rgb(140, 222, 255) 0px 0px 0px 2px;
+  border: 1px solid rgb(0, 161, 223);
+  outline: none;
+  color: rgb(80, 88, 99);
+}
+.css-1xjyj8j.css-1xjyj8j {
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+}
+.css-1xjyj8j div.selectedLabel {
+  margin-right: 30px;
+  line-height: 40px;
+}
+.css-1xjyj8j div.selectedLabel,
+.css-1xjyj8j span.dropdownOptionLabel {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.css-1xjyj8j .arrowDown,
+.css-1xjyj8j .arrowUp {
+  position: absolute;
+  right: 14px;
+  top: 0px;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.css-1xjyj8j .arrowDown svg,
+.css-1xjyj8j .arrowUp svg {
+  height: 16px;
+  width: 16px;
+}
+.css-1xjyj8j .arrowUp svg {
+  transform: rotate(180deg);
+}
+.css-1xjyj8j .dropdownOptions {
+  position: absolute;
+  user-select: none;
+  top: calc(100% + 8px);
+  left: -1px;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid rgb(196, 199, 204);
+  min-width: 100%;
+  padding: 0px;
+  margin: 0px;
+  z-index: 999;
+  overflow: auto;
+  width: 0px;
+}
+.css-1xjyj8j .dropdownCollapsed.animated {
+  border: none;
+  overflow: hidden;
+  max-height: 0px;
+  animation-name: collapseDropDown;
+  animation-duration: 150ms;
+  animation-timing-function: cubic-bezier(0.2, 0, 0.38, 0.9);
+}
+.css-1xjyj8j .dropDownOptionsContainer {
+  display: flex;
+}
+.css-1xjyj8j .dropdownOptions ul {
+  padding: 0px;
+  margin: 0px;
+  overflow: auto;
+  max-height: 200px;
+  width: 100%;
+}
+.css-1xjyj8j .dropdownOptions li.dropdownOption {
+  list-style: none;
+  width: 100%;
+  cursor: pointer;
+  height: 40px;
+  line-height: normal;
+  min-width: 100%;
+}
+.css-1xjyj8j .checkmark {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-left: 13px;
+  margin-right: 13px;
+  height: 100%;
+  width: 15px;
+  visibility: hidden;
+}
+.css-1xjyj8j li.multiple .checkmark {
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  margin-left: 20px;
+  margin-right: 12px;
+  margin-top: 12px;
+  border-radius: 3px;
+  border: 1px solid rgb(196, 199, 204);
+  background-color: rgb(245, 246, 247);
+  visibility: visible;
+  line-height: 12px;
+}
+.css-1xjyj8j li.dropdownOption.multiple .checkmark span {
+  visibility: hidden;
+}
+.css-1xjyj8j div.selectedLabel,
+.css-1xjyj8j span.dropdownOptionLabel {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.css-1xjyj8j span.dropdownOptionLabel {
+  display: inline-block;
+  width: calc(100% - 48px);
+  line-height: 1.6;
+  margin-top: 8px;
+  vertical-align: top;
+}
+.css-1xjyj8j .scrollBar {
+  flex: 1 1 0%;
+  padding-left: 4px;
+  padding-right: 4px;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  min-width: 8px;
+}
+.css-1xjyj8j .scrollThumb {
+  width: 8px;
+  background: rgb(196, 199, 204);
+  border-radius: 8px;
+  cursor: default;
+}
+.css-1xjyj8j .dropdownFooter {
+  width: 100%;
+  height: 66px;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 18px;
+}
+.css-1iue7ku {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.6;
+  user-select: none;
+  vertical-align: middle;
+  transition: color 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
+  font-family: Lato;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(24, 97, 191);
+  padding: 3px 16px;
+}
+.css-1xjyj8j .buttonApply {
+  margin-right: 16px;
+  margin-left: auto;
+}
+.css-1xjyj8j .dropdownExpanded {
+  display: block;
+  animation-name: expandDropDown;
+  animation-duration: 150ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+  overflow: hidden;
+  max-height: 267.6px;
+  box-shadow: rgb(182, 187, 194) 0px 0px 2px 0px;
+}
+.css-1xjyj8j .dropdownOptions li.dropdownOption.hovered {
+  background: rgb(222, 224, 227);
+}
+.css-1kd4gul li.dropdownOption.checked {
+  font-weight: bold;
+}
+.css-1kd4gul li.multiple.checked .checkmark {
+  border: 1px solid rgb(42, 171, 222);
+  background-color: rgb(42, 171, 222);
+}
+.css-1kd4gul li.dropdownOption.multiple.checked .checkmark span {
+  visibility: visible;
+  width: 24px;
+  height: 28px;
+}
+.css-1kd4gul li.dropdownOption.checked .checkmark span svg {
+  margin-top: 2px;
+  width: 36px;
+  height: 36px;
+}
+.css-1kd4gul li.dropdownOption.multiple.checked .checkmark span svg {
+  width: 24px;
+  height: 24px;
+}
+
+constructed stylesheet .css-1ffg0gd {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.6;
+  user-select: none;
+  vertical-align: middle;
+  transition: color 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
+  font-family: Lato;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+  color: rgb(80, 88, 99);
+  background-color: transparent;
+  padding: 3px 16px;
+}
+.css-1kd4gul .buttonClear {
+  margin-left: 8px;
+}
+.css-1iue7ku {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.6;
+  user-select: none;
+  vertical-align: middle;
+  transition: color 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
+  font-family: Lato;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(24, 97, 191);
+  padding: 3px 16px;
+}
+.css-1kd4gul .buttonApply {
+  margin-right: 16px;
+  margin-left: auto;
+}
+.module > :last-child {
+  margin-bottom: 0 !important;
+}
+.gdGrid .pb-0 {
+  padding-bottom: 0 !important;
+}
+.idealLocationsStyle__chips___2ES78 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 12px 16px 24px 16px;
+}
+.idealLocationsStyle__addEntryIcon___3sdWR {
+  color: #1861bf !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.gdGrid .ml-xxsm {
+  margin-left: 4px !important;
+}
+.gdGrid .pb-md-0 {
+  padding-bottom: 0 !important;
+}
+.gdGrid .pr-md-lg {
+  padding-right: 24px !important;
+}
+.gdGrid .mr-lg-xl {
+  margin-right: 28px !important;
+}
+
+#JobPreferences {
+  display: flex !important;
+}
+.idealJobStyle__adjustWidth___IiDqt {
+  width: 50%;
+}
+.idealJobStyle__addIcon___22lnv {
+  position: relative;
+  top: 35px;
+  bottom: 20px;
+}
+.idealJobStyle__chip___3I3VC {
+  font-size: inherit !important;
+  font-weight: 400 !important;
+  text-transform: none !important;
+}
+.idealJobStyle__chips___1iw1E div {
+  margin: 0 8px 8px 0;
+}
+.hollywood .chip {
+  z-index: 10;
+  padding: 0 8px;
+  background-color: #00a1df;
+  border: none;
+  height: 32px;
+  vertical-align: middle;
+  line-height: 32px;
+  border-radius: 2px;
+  color: #fff;
+}
+span.link {
+  color: #1861bf;
+  text-decoration: none;
+  cursor: pointer;
+}
+.icon-cross {
+  background-image: url(https://www.glassdoor.com/user-profile-app/static/img/sprites/up-icons.png?v=906988gay);
+  background-position: -302px -69px;
+  width: 14px;
+  height: 14px;
+}
+
+.hollywood .chip i {
+  display: inline-block !important;
+}
+.css-1kd4gul li.dropdownOption.checked {
+  font-weight: bold;
+}
+.css-1kd4gul li.multiple.checked .checkmark {
+  border: 1px solid rgb(42, 171, 222);
+  background-color: rgb(42, 171, 222);
+}
+.css-1kd4gul {
+  font-size: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  border: 1px solid rgb(196, 199, 204);
+  padding: 0px 12px;
+  color: rgb(133, 140, 148);
+  position: relative;
+  user-select: none;
+}
+.css-1kd4gul:focus,
+.css-1kd4gul:active {
+  box-shadow: rgb(140, 222, 255) 0px 0px 0px 2px;
+  border: 1px solid rgb(0, 161, 223);
+  outline: none;
+  color: rgb(80, 88, 99);
+}
+.css-1kd4gul.css-1kd4gul {
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  color: rgb(80, 88, 99);
+}
+.css-1kd4gul div.selectedLabel {
+  margin-right: 30px;
+  line-height: 40px;
+}
+.css-1kd4gul div.selectedLabel,
+.css-1kd4gul span.dropdownOptionLabel {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.css-1kd4gul .arrowDown,
+.css-1kd4gul .arrowUp {
+  position: absolute;
+  right: 14px;
+  top: 0px;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.css-1kd4gul .dropDownOptionsContainer {
+  display: flex;
+}
+.css-1kd4gul .arrowDown svg,
+.css-1kd4gul .arrowUp svg {
+  height: 16px;
+  width: 16px;
+}
+.css-1kd4gul .arrowUp svg {
+  transform: rotate(180deg);
+}
+.css-1kd4gul .dropdownOptions {
+  position: absolute;
+  user-select: none;
+  top: calc(100% + 8px);
+  left: -1px;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid rgb(196, 199, 204);
+  min-width: 100%;
+  padding: 0px;
+  margin: 0px;
+  z-index: 999;
+  overflow: auto;
+  width: 0px;
+}
+.css-1kd4gul .dropdownCollapsed.animated {
+  border: none;
+  overflow: hidden;
+  max-height: 0px;
+  animation-name: collapseDropDown;
+  animation-duration: 150ms;
+  animation-timing-function: cubic-bezier(0.2, 0, 0.38, 0.9);
+}
+.css-1kd4gul .dropdownExpanded {
+  display: block;
+  animation-name: expandDropDown;
+  animation-duration: 150ms;
+  animation-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+  overflow: hidden;
+  max-height: 267.6px;
+  box-shadow: rgb(182, 187, 194) 0px 0px 2px 0px;
+}
+.css-1kd4gul .dropdownOptions li.dropdownOption {
+  list-style: none;
+  width: 100%;
+  cursor: pointer;
+  height: 40px;
+  line-height: normal;
+  min-width: 100%;
+}
+.css-1kd4gul li.dropdownOption.checked {
+  font-weight: bold;
+}
+.css-1kd4gul .checkmark {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-left: 13px;
+  margin-right: 13px;
+  height: 100%;
+  width: 15px;
+  visibility: hidden;
+}
+.css-1kd4gul li.multiple .checkmark {
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  margin-left: 20px;
+  margin-right: 12px;
+  margin-top: 12px;
+  border-radius: 3px;
+  border: 1px solid rgb(196, 199, 204);
+  background-color: rgb(245, 246, 247);
+  visibility: visible;
+  line-height: 12px;
+}
+.css-1kd4gul li.multiple.checked .checkmark {
+  border: 1px solid rgb(42, 171, 222);
+  background-color: rgb(42, 171, 222);
+}
+.css-1kd4gul div.selectedLabel,
+.css-1kd4gul span.dropdownOptionLabel {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.css-1kd4gul span.dropdownOptionLabel {
+  display: inline-block;
+  width: calc(100% - 48px);
+  line-height: 1.6;
+  margin-top: 8px;
+  vertical-align: top;
+}
+
+.css-1kd4gul .dropdownFooter {
+  width: 100%;
+  height: 66px;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 18px;
+}
+.css-1ffg0gd {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.6;
+  user-select: none;
+  vertical-align: middle;
+  transition: color 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
+  font-family: Lato;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+  color: rgb(80, 88, 99);
+  background-color: transparent;
+  padding: 3px 16px;
+}
+.css-1kd4gul .buttonClear {
+  margin-left: 8px;
+}
+.css-1kd4gul .dropdownOptions ul {
+  padding: 0px;
+  margin: 0px;
+  overflow: auto;
+  max-height: 200px;
+  width: 100%;
+}
+.css-1kd4gul li.dropdownOption.multiple .checkmark span {
+  visibility: hidden;
+}
+.gdGrid .mt-xsm {
+  margin-top: 8px !important;
+}
+h2,
+.h2 {
+  font-size: 20px;
+  line-height: 27px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #0d0d0d;
+  margin: 16px 0;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  -moz-font-variant-ligatures: no-common-ligatures;
+  font-variant-ligatures: no-common-ligatures;
+  -moz-font-feature-settings: 'liga' 0, 'clig' 0;
+  -webkit-font-feature-settings: 'liga' 0, 'clig' 0;
+  font-feature-settings: 'liga' 0, 'clig' 0;
+  font-weight: 400;
+}
+.formButtons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 8px 0;
+}

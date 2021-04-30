@@ -1,0 +1,178 @@
+#MainCol {
+  -webkit-flex-basis: 40%;
+  -ms-flex-preferred-size: 40%;
+  flex-basis: 40%;
+  padding-bottom: 50px;
+  -webkit-transition: -webkit-box-flex 0.3s ease-out, -webkit-flex 0.3s ease-out;
+  transition: -webkit-box-flex 0.3s ease-out, -webkit-flex 0.3s ease-out;
+  -o-transition: flex 0.3s ease-out;
+  transition: flex 0.3s ease-out;
+  transition: flex 0.3s ease-out, -webkit-box-flex 0.3s ease-out, -webkit-flex 0.3s ease-out,
+    -ms-flex 0.3s ease-out;
+  position: initial;
+}
+#MainCol,
+#JDCol {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  background-color: #fff;
+}
+#MainCol {
+  -webkit-flex-basis: 40%;
+  -ms-flex-preferred-size: 40%;
+  flex-basis: 40%;
+  padding-bottom: 50px;
+  -webkit-transition: -webkit-box-flex 0.3s ease-out, -webkit-flex 0.3s ease-out;
+  transition: -webkit-box-flex 0.3s ease-out, -webkit-flex 0.3s ease-out;
+  -o-transition: flex 0.3s ease-out;
+  transition: flex 0.3s ease-out;
+  transition: flex 0.3s ease-out, -webkit-box-flex 0.3s ease-out, -webkit-flex 0.3s ease-out,
+    -ms-flex 0.3s ease-out;
+  position: static;
+  border-top: 1px solid #e7e7e7;
+}
+#JDCol,
+#MainCol {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  background-color: #fff;
+}
+#MainColSummary {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 4px 4px;
+}
+.hidden {
+  display: none !important;
+}
+#MainColSummary #jobTitle,
+#MainColSummary .jobsCount,
+#MainColSummary .cityOverviewLink {
+  color: #505863;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 8px;
+}
+#MainColSummary #jobTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-transform: lowercase;
+}
+.lang-en #MainColSummary #jobTitle {
+  text-transform: capitalize;
+}
+#MainColSummary .jobsCount {
+  color: #7f7f7f;
+  text-align: right;
+}
+.css-8atqhb {
+  width: 100%;
+}
+.css-1530je5 {
+  margin: 4px;
+  position: relative;
+  width: calc(100% - 16px);
+}
+.css-e0vuny {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+.css-150lexj {
+  border: 1px solid transparent;
+  color: #505863;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 4px;
+}
+.css-150lexj > .SVGInline {
+  padding: 0 4px;
+}
+.css-19rczgc {
+  color: #505863;
+  font-size: 12px;
+  line-height: 2;
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.jlGrid {
+  padding: 0;
+  width: 100%;
+}
+.margVert {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+}
+.padHorz {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+.tbl {
+  display: table;
+}
+.middle {
+  vertical-align: middle !important;
+}
+.padVertSm {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+.tbl .cell {
+  display: table-cell;
+  float: none !important;
+  vertical-align: top;
+}
+td.hideMob,
+td.hideHH,
+td.hideTab,
+td.hideDesk,
+th.hideMob,
+th.hideHH,
+th.hideTab,
+th.hideDesk,
+.cell.hideMob,
+.cell.hideHH,
+.cell.hideTab,
+.cell.hideDesk {
+  display: table-cell !important;
+}
+div,
+p,
+.p {
+  font-size: 15px;
+  color: #404040;
+}
+body ::-webkit-scrollbar-track {
+  background: #fff;
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+}
+body ::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 0;
+}
+body ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}

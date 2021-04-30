@@ -1,0 +1,36 @@
+.skillsStyle__skills___2I7sR .gd-ui-modal .fullContent {
+  overflow: visible;
+}
+.skillsStyle__dragMsg___IWkQD {
+  padding-top: 4px;
+  margin: 0;
+  height: 24px;
+}
+.editableSkillList {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+.gdGrid .pt {
+  padding-top: 16px !important;
+}
+.hollywood .editableSkillList {
+  padding: 0;
+}
+.css-gw9vqy {
+  color: rgb(80, 88, 99);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 32px;
+  background-color: rgb(182, 232, 252);
+  border: none;
+  border-radius: 0px 16px 16px 0px;
+  padding: 0px 10px 0px 8px;
+}

@@ -1,0 +1,267 @@
+#WideCol {
+  display: table-caption;
+  clear: both;
+  width: 992px;
+  width: calc(100% - 32px);
+  max-width: 992px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+#EI #WideCol {
+  width: 100%;
+}
+#EIHdrModule,
+.eiHdrModule {
+  position: relative;
+  min-height: 60px;
+  margin-bottom: 0;
+}
+#EmpHero {
+  position: relative;
+  min-height: 59px;
+  max-height: 185px;
+  font-size: 0;
+}
+#EmpHero img {
+  width: 100%;
+  height: auto;
+  max-height: 185px;
+}
+#EmpHeroPhotoLink {
+  display: block;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  padding: 12px;
+  white-space: nowrap;
+  color: #fff !important;
+  cursor: pointer;
+  border-radius: 4px;
+  z-index: 15;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#EIHdrModule i.camera,
+.eiHdrModule i.camera {
+  background-image: url(https://www.glassdoor.com/app/static/img/core/sprites/ei.png?v=e2094d62i);
+  background-position: -125px 0px;
+  width: 16px;
+  height: 12px;
+  margin-right: 8px;
+}
+.padLtSm {
+  padding-left: 12px !important;
+}
+#EmpHeroPhotoLink span {
+  font-weight: normal;
+  line-height: 1em;
+}
+#EIHdrModule div.empInfo.tbl,
+.eiHdrModule div.empInfo.tbl {
+  width: 100%;
+}
+#EIHdrModule div.empInfo.tbl .cell,
+.eiHdrModule div.empInfo.tbl .cell {
+  width: 67%;
+  padding: 16px 16px 16px 0;
+  vertical-align: bottom;
+  position: relative;
+}
+#EIHdrModule div.empInfo.tbl div.logo.cell,
+.eiHdrModule div.empInfo.tbl div.logo.cell {
+  width: 3%;
+  padding: 16px;
+  position: relative;
+  z-index: 5;
+}
+#EIHdrModule.noblur .empInfo .logo > .sqLogo,
+#EIHdrModule.noblur .empInfo .logo > .sqLogoLink,
+.eiHdrModule.noblur .empInfo .logo > .sqLogo,
+.eiHdrModule.noblur .empInfo .logo > .sqLogoLink {
+  margin-top: -75px;
+}
+#EIHdrModule div.empInfo.tbl div.logo.cell .sqLogo,
+.eiHdrModule div.empInfo.tbl div.logo.cell .sqLogo {
+  position: relative;
+  padding: 0;
+}
+span.sqLogo.lgSqLogo span,
+span.sqLogo.lgSqLogo img {
+  width: 90px;
+  height: 90px;
+}
+#EIHdrModule div.empInfo.tbl div.header.cell,
+.eiHdrModule div.empInfo.tbl div.header.cell {
+  padding-bottom: 18px;
+  vertical-align: bottom;
+}
+.tightAll {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#EIHdrModule div.empInfo.tbl div.header.cell p,
+#EIHdrModule div.empInfo.tbl div.header.cell h1,
+.eiHdrModule div.empInfo.tbl div.header.cell p,
+.eiHdrModule div.empInfo.tbl div.header.cell h1 {
+  color: #0d0d0d;
+}
+#StickyNavWrapper {
+  min-height: 1px;
+}
+#SmarterNavContainer {
+  position: static;
+}
+#EIHdrModule div.empLinks,
+.eiHdrModule div.empLinks {
+  min-width: 540px;
+}
+#EIHdrModule div.empLinks.tbl,
+.eiHdrModule div.empLinks.tbl {
+  width: 100%;
+}
+#EIHdrModule div.eiProductCells,
+.eiHdrModule div.eiProductCells {
+  margin-left: 16px;
+  position: relative;
+}
+#EIHdrModule div.empLinks.tbl .cell,
+.eiHdrModule div.empLinks.tbl .cell {
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+  padding: 16px 8px;
+  vertical-align: middle;
+}
+#EIHdrModule div.empLinks.tbl a.cell,
+#EIHdrModule div.empLinks.tbl span.cell,
+.eiHdrModule div.empLinks.tbl a.cell,
+.eiHdrModule div.empLinks.tbl span.cell {
+  text-decoration: none;
+}
+#EIHdrModule div.empLinks.tbl a.cell,
+#EIHdrModule div.empLinks.tbl span.cell,
+.eiHdrModule div.empLinks.tbl a.cell,
+.eiHdrModule div.empLinks.tbl span.cell {
+  width: 90px;
+  padding: 16px 0 0 0;
+}
+#EIHdrModule div.empLinks.tbl .cell:last-child,
+#EIHdrModule div.empLinks.tbl .cell.eiCell:last-of-type,
+.eiHdrModule div.empLinks.tbl .cell:last-child,
+.eiHdrModule div.empLinks.tbl .cell.eiCell:last-of-type {
+  border-right-width: 0;
+}
+#EIHdrModule div.empLinks.tbl .cell > span,
+.eiHdrModule div.empLinks.tbl .cell > span {
+  margin: 0;
+  line-height: 1em;
+  display: block;
+  text-align: center;
+}
+#EIHdrModule div.empLinks.tbl a.cell .subtle,
+#EIHdrModule div.empLinks.tbl span.cell .subtle,
+.eiHdrModule div.empLinks.tbl a.cell .subtle,
+.eiHdrModule div.empLinks.tbl span.cell .subtle {
+  margin-top: 4px;
+  color: #1861bf;
+}
+#EIHdrModule div.eiProductCells #HierarchiesDropdown,
+.eiHdrModule div.eiProductCells #HierarchiesDropdown {
+  display: none;
+  -webkit-transition: 0.2s 0.2s;
+  -o-transition: 0.2s 0.2s;
+  transition: 0.2s 0.2s;
+  margin-top: -4px;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 1;
+}
+#EIHdrModule div.empLinks.tbl a.cell .num,
+#EIHdrModule div.empLinks.tbl span.cell .num,
+.eiHdrModule div.empLinks.tbl a.cell .num,
+.eiHdrModule div.empLinks.tbl span.cell .num {
+  color: #404040;
+  line-height: 22px;
+  vertical-align: middle;
+}
+#EIHdrModule i.icon-bullseye-select,
+.eiHdrModule i.icon-bullseye-select {
+  background-image: url(https://www.glassdoor.com/app/static/img/core/sprites/ei.png?v=e2094d62i);
+  background-position: -45px -97px;
+  width: 22px;
+  height: 22px;
+  top: -10px;
+  left: 50%;
+}
+div.vline {
+  padding: 0;
+  background: #c2c2c2;
+  width: 1px;
+  height: 100%;
+  padding: 0;
+}
+#EIHdrModule div.empLinks.tbl .cell.vline,
+.eiHdrModule div.empLinks.tbl .cell.vline {
+  padding: 0;
+  background: #eaeaea;
+  position: absolute;
+  height: 80% !important;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+#EIHdrModule div.empLinks.tbl .cell.eiCell:after,
+.eiHdrModule div.empLinks.tbl .cell.eiCell:after {
+  height: 3px;
+  display: block;
+  content: '';
+  margin: 13px -1px -2px 0;
+}
+#EIHdrModule div.empLinks.tbl .cell.eiCell.active:after,
+.eiHdrModule div.empLinks.tbl .cell.eiCell.active:after {
+  background-color: #00a1df;
+}
+.css-1vkuk21 {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 8px 16px;
+  display: inline-block;
+  line-height: 1.6;
+  user-select: none;
+  vertical-align: middle;
+  transition: color 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
+  font-family: Lato;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 88px;
+}
+.css-1vkuk21,
+button.css-1vkuk21 {
+  color: rgb(24, 97, 191);
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(24, 97, 191);
+  padding: 7px 16px;
+}
+#EIHdrModule div.empLinks.tbl .cell.buttons .gd-btn:last-child,
+.eiHdrModule div.empLinks.tbl .cell.buttons .gd-btn:last-child {
+  margin: 0;
+}
+#EIHdrModule a.gd-btn i.btn-plus,
+.eiHdrModule a.gd-btn i.btn-plus {
+  background-image: url(https://www.glassdoor.com/app/static/img/core/sprites/sitewide.png?v=f18164g6g);
+  background-position: -137px -171px;
+  width: 14px;
+  height: 14px;
+  margin-right: 1ex;
+}
