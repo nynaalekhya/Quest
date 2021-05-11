@@ -1,4 +1,4 @@
-# GlassdoorPrototype
+# Glassdoor Prototype
 Glass Door Prototype 
 
 This is a simulation of GlassDoor website using the MERN stack covering the below personas
